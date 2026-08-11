@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "mustReadLimit": 3,
+  "browseLimit": 8,
+  "otherLimit": 12,
+  "minimumIndependentSources": 2,
+  "question": "替换为你自己的注意力问题。",
+  "rules": [
+    "替换为你的阅读分层规则。"
+  ],
+  "domains": [
+    {
+      "id": "my-focus",
+      "label": "我的关注领域",
+      "keywords": ["关键词一", "关键词二"]
+    }
+  ]
+}

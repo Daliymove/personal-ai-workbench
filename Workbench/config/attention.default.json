@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "mustReadLimit": 3,
+  "browseLimit": 8,
+  "otherLimit": 12,
+  "minimumIndependentSources": 2,
+  "question": "这条变化是否可能影响未来一周的工具选择、工作方式或风险判断？",
+  "rules": [
+    "只从多源热点、过去 24 小时精选和最新日报取候选。",
+    "多源事件命中至少一个关注领域，才进入今日必看。",
+    "热点只用于阅读分层，不自动生成选题或任务。"
+  ],
+  "domains": [
+    {
+      "id": "agent-work",
+      "label": "Agent 与工作流",
+      "keywords": ["agent", "智能体", "工作流", "自动化", "mcp", "codex", "claude code"]
+    },
+    {
+      "id": "safety-policy",
+      "label": "安全与政策边界",
+      "keywords": ["安全", "隐私", "版权", "监管", "政策", "越权", "泄露"]
+    },
+    {
+      "id": "creative-tools",
+      "label": "创作工具",
+      "keywords": ["视频", "图像", "音频", "语音", "字幕", "剪辑", "多模态"]
+    },
+    {
+      "id": "model-capability",
+      "label": "模型能力变化",
+      "keywords": ["模型发布", "新模型", "推理", "benchmark", "基准", "开源模型"]
+    },
+    {
+      "id": "knowledge-work",
+      "label": "知识工作",
+      "keywords": ["知识", "文档", "研究", "搜索", "阅读", "学习", "写作", "检索", "上下文"]
+    }
+  ]
+}

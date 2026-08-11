@@ -1,0 +1,17 @@
+.decrypted-text,
+.decrypted-text > span {
+  display: inline-block;
+  white-space: pre;
+}
+
+.decrypted-text__cipher {
+  color: color-mix(in srgb, var(--accent-soft) 76%, var(--ink-soft));
+  opacity: 0.62;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .decrypted-text__cipher {
+    color: inherit;
+    opacity: 1;
+  }
+}

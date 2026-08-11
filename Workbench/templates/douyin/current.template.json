@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "demoMode": false,
+  "capturedAt": null,
+  "generatedAt": null,
+  "timezone": "Asia/Shanghai",
+  "source": {
+    "kind": "authorized-local-export",
+    "label": null
+  },
+  "dataQuality": {
+    "status": "passed",
+    "issues": [],
+    "notice": null
+  },
+  "files": [
+    {
+      "id": null,
+      "path": null,
+      "rowCount": null
+    }
+  ],
+  "history": {
+    "snapshotCount": 0
+  },
+  "douyin": {
+    "available": true,
+    "demoMode": false,
+    "sourcePath": "30_self_media/douyin/current.json",
+    "updatedAt": null,
+    "comparableCount": 0,
+    "range": {
+      "from": null,
+      "to": null
+    },
+    "reviewStatusCounts": {
+      "public": null,
+      "private": null
+    },
+    "summary": {
+      "workCount": null,
+      "totalViews": null,
+      "medianViews": null,
+      "averageViews": null,
+      "totalLikes": null,
+      "totalShares": null,
+      "totalComments": null,
+      "totalSaves": null,
+      "totalEngagements": null,
+      "totalProfileVisits": null,
+      "totalFollowerGain": null,
+      "weightedCompletionRatePct": null,
+      "weightedFiveSecondCompletionRatePct": null,
+      "weightedTwoSecondBounceRatePct": null,
+      "weightedAverageWatchSeconds": null,
+      "likeRatePct": null,
+      "shareRatePct": null,
+      "commentRatePct": null,
+      "saveRatePct": null,
+      "profileVisitRatePct": null,
+      "followerGainRatePct": null,
+      "engagementRatePct": null
+    },
+    "summaryLowerBounds": {},
+    "contentLines": [
+      {
+        "name": null,
+        "workCount": null,
+        "views": null,
+        "viewSharePct": null,
+        "medianViews": null,
+        "saves": null,
+        "saveRatePct": null,
+        "profileVisits": null,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": null,
+        "followerGain": null,
+        "followerGainRatePct": null,
+        "weightedCompletionRatePct": null,
+        "weightedFiveSecondCompletionRatePct": null,
+        "weightedTwoSecondBounceRatePct": null,
+        "weightedAverageWatchSeconds": null
+      }
+    ],
+    "formats": [
+      {
+        "name": null,
+        "workCount": null,
+        "views": null,
+        "viewSharePct": null,
+        "medianViews": null,
+        "saves": null,
+        "saveRatePct": null,
+        "profileVisits": null,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": null,
+        "followerGain": null,
+        "followerGainRatePct": null,
+        "weightedCompletionRatePct": null,
+        "weightedFiveSecondCompletionRatePct": null,
+        "weightedTwoSecondBounceRatePct": null,
+        "weightedAverageWatchSeconds": null
+      }
+    ],
+    "roles": [
+      {
+        "name": null,
+        "workCount": null,
+        "views": null,
+        "viewSharePct": null,
+        "medianViews": null,
+        "saves": null,
+        "saveRatePct": null,
+        "profileVisits": null,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": null,
+        "followerGain": null,
+        "followerGainRatePct": null,
+        "weightedCompletionRatePct": null,
+        "weightedFiveSecondCompletionRatePct": null,
+        "weightedTwoSecondBounceRatePct": null,
+        "weightedAverageWatchSeconds": null
+      }
+    ],
+    "monthly": [
+      {
+        "month": null,
+        "workCount": null,
+        "views": null,
+        "likes": null,
+        "shares": null,
+        "comments": null,
+        "saves": null,
+        "profileVisits": null,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": null,
+        "weightedCompletionRatePct": null,
+        "weightedFiveSecondCompletionRatePct": null,
+        "weightedTwoSecondBounceRatePct": null,
+        "weightedAverageWatchSeconds": null
+      }
+    ],
+    "qualityIssues": [],
+    "qualityFlags": [],
+    "works": [
+      {
+        "id": "local-work-id",
+        "platformWorkId": null,
+        "rowNumber": 1,
+        "publishedAt": null,
+        "title": null,
+        "format": null,
+        "reviewStatus": null,
+        "durationSeconds": null,
+        "views": null,
+        "likes": null,
+        "shares": null,
+        "comments": null,
+        "saves": null,
+        "engagements": null,
+        "profileVisits": null,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": null,
+        "completionRatePct": null,
+        "fiveSecondCompletionRatePct": null,
+        "twoSecondBounceRatePct": null,
+        "averageWatchSeconds": null,
+        "likeRatePct": null,
+        "shareRatePct": null,
+        "commentRatePct": null,
+        "saveRatePct": null,
+        "engagementRatePct": null,
+        "profileVisitRatePct": null,
+        "followerGainRatePct": null,
+        "coverClickRatePct": null,
+        "contentLine": "未分类",
+        "contentRole": "未分类",
+        "history": [
+          {
+            "capturedAt": null,
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null,
+            "saves": null,
+            "followerGain": null,
+            "sourcePath": null
+          }
+        ],
+        "qualityFlags": []
+      }
+    ],
+    "analytics": {
+      "snapshot": {
+        "capturedAt": null,
+        "timezone": "Asia/Shanghai",
+        "snapshotCount": 0,
+        "rootPath": "30_self_media/douyin",
+        "isRealtime": false
+      },
+      "coverage": {
+        "totalWorkCount": 0,
+        "historyCoveredWorks": 0,
+        "deepWorkCount": 0,
+        "deepFieldCount": 0,
+        "accountDailyRows": 0,
+        "pageOnlyRows": 0,
+        "assets": [
+          {
+            "id": null,
+            "label": null,
+            "status": null,
+            "rowCount": null,
+            "fieldCount": null,
+            "range": {
+              "from": null,
+              "to": null
+            },
+            "grain": null,
+            "sourcePath": null
+          }
+        ]
+      },
+      "qualityIssues": [],
+      "account": {
+        "daily": [
+          {
+            "date": null,
+            "posts": null,
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "fiveSecondCompletionRatePct": null,
+            "twoSecondBounceRatePct": null,
+            "coverClickRatePct": null,
+            "averageWatchSeconds": null,
+            "totalFollowers": null,
+            "netFollowerGain": null,
+            "followersGained": null,
+            "followersLost": null,
+            "returningFollowers": null
+          }
+        ],
+        "summary": {
+          "from": null,
+          "to": null,
+          "dayCount": null,
+          "posts": null,
+          "views": null,
+          "likes": null,
+          "comments": null,
+          "netFollowerGain": null,
+          "followersGained": null,
+          "followersLost": null,
+          "returningFollowers": null,
+          "latestFollowerTotal": null
+        },
+        "homeSnapshot": {
+          "capturedAt": null,
+          "sourcePath": null,
+          "account": {
+            "following": null,
+            "followers": null,
+            "totalLikes": null
+          },
+          "latestPeriod": {
+            "label": null,
+            "views": null,
+            "profileVisits": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "netFollowerGain": null
+          }
+        },
+        "contentOverview": {
+          "range": null,
+          "formats": [
+            null
+          ],
+          "categories": [
+            null
+          ],
+          "publishedWorks": null,
+          "averageCoverClickRatePct": null,
+          "averageFiveSecondCompletionRatePct": null,
+          "averageTwoSecondBounceRatePct": null,
+          "averageWatchSeconds": null,
+          "medianViews": null,
+          "averageLikes": null,
+          "averageComments": null,
+          "averageShares": null
+        },
+        "sourcePaths": []
+      },
+      "collections": [
+        {
+          "name": null,
+          "publishedAt": null,
+          "reviewStatus": null,
+          "views": null,
+          "completionRatePct": null,
+          "coverClickRatePct": null,
+          "twoSecondBounceRatePct": null,
+          "averageWatchSeconds": null,
+          "likes": null,
+          "shares": null,
+          "comments": null,
+          "saves": null,
+          "followerGain": null
+        }
+      ],
+      "workDetails": {
+        "local-work-id": {
+          "platformWorkId": null,
+          "capturedAt": null,
+          "sourceKind": "authorized-local-export",
+          "sourcePaths": [],
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "shares": null,
+            "comments": null,
+            "saves": null,
+            "followerGain": null,
+            "completionRatePct": null,
+            "fiveSecondCompletionRatePct": null,
+            "twoSecondBounceRatePct": null,
+            "averageWatchSeconds": null,
+            "averageWatchSharePct": null,
+            "coverClickRatePct": null,
+            "saveRatePct": null,
+            "followerGainRatePct": null,
+            "notInterested": null
+          },
+          "hourlyViews": [
+            {
+              "date": null,
+              "value": null,
+              "cumulative": null
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": null,
+              "value": null,
+              "cumulative": null
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": null,
+              "value": null,
+              "douyin": null,
+              "douyinFeatured": null
+            }
+          ],
+          "progress": [
+            {
+              "time": null,
+              "skipRatePct": null,
+              "rewatchRatePct": null
+            }
+          ],
+          "retention": [
+            {
+              "time": null,
+              "valuePct": null,
+              "peerPct": null
+            }
+          ],
+          "bounce": [
+            {
+              "time": null,
+              "valuePct": null,
+              "peerPct": null
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": null,
+              "sharePct": null,
+              "comparedWithSevenDaysPct": null,
+              "comparisonRaw": null
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": null,
+                "time": null,
+                "name": null,
+                "clickRatePct": null
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": null,
+                "name": null,
+                "sharePct": null
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": null,
+                "name": null,
+                "sharePct": null
+              }
+            ],
+            "geography": [
+              {
+                "name": null,
+                "sharePct": null
+              }
+            ],
+            "interests": [
+              {
+                "name": null,
+                "sharePct": null
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": null,
+                "heat": null,
+                "heatRaw": null
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": null,
+                "name": null
+              }
+            ],
+            "missingFields": []
+          }
+        }
+      }
+    }
+  }
+}

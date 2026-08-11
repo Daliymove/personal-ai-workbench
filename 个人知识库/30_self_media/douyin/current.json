@@ -1,0 +1,5489 @@
+{
+  "schemaVersion": 1,
+  "demoMode": true,
+  "capturedAt": "2026-01-31T20:30:00+08:00",
+  "generatedAt": "2026-01-31T20:35:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": {
+    "kind": "synthetic-demo",
+    "label": "Complete synthetic Douyin dataset"
+  },
+  "dataQuality": {
+    "status": "passed",
+    "issues": [],
+    "notice": "All titles, ids, dates, paths and metrics are deterministic fictional demo data."
+  },
+  "files": [
+    {
+      "id": "account-content-daily",
+      "path": "30_self_media/douyin/synthetic/account-content-daily.csv",
+      "rowCount": 30
+    },
+    {
+      "id": "account-follower-daily",
+      "path": "30_self_media/douyin/synthetic/account-follower-daily.csv",
+      "rowCount": 30
+    },
+    {
+      "id": "all-works",
+      "path": "30_self_media/douyin/synthetic/all-works.csv",
+      "rowCount": 8
+    },
+    {
+      "id": "content-analysis",
+      "path": "30_self_media/douyin/synthetic/content-overview.csv",
+      "rowCount": 1
+    },
+    {
+      "id": "collections",
+      "path": "30_self_media/douyin/synthetic/collections.csv",
+      "rowCount": 2
+    },
+    {
+      "id": "deep-work",
+      "path": "30_self_media/douyin/synthetic/deep/",
+      "rowCount": 676
+    },
+    {
+      "id": "page-evidence",
+      "path": "30_self_media/douyin/synthetic/page-evidence/",
+      "rowCount": 216
+    }
+  ],
+  "history": {
+    "snapshotCount": 4
+  },
+  "douyin": {
+    "available": true,
+    "demoMode": true,
+    "sourcePath": "30_self_media/douyin/current.json",
+    "updatedAt": "2026-01-31T20:30:00+08:00",
+    "comparableCount": 8,
+    "range": {
+      "from": "2025-11-08 10:00:00",
+      "to": "2026-01-24 10:00:00"
+    },
+    "reviewStatusCounts": {
+      "public": 8,
+      "private": 0
+    },
+    "summary": {
+      "workCount": 8,
+      "totalViews": 98200,
+      "medianViews": 12200,
+      "averageViews": 12275,
+      "totalLikes": 5070,
+      "totalShares": 785,
+      "totalComments": 541,
+      "totalSaves": 3597,
+      "totalEngagements": 9993,
+      "totalProfileVisits": 1719,
+      "totalFollowerGain": 400,
+      "weightedCompletionRatePct": 17.88,
+      "weightedFiveSecondCompletionRatePct": 43.18,
+      "weightedTwoSecondBounceRatePct": 33.21,
+      "weightedAverageWatchSeconds": 26.65,
+      "likeRatePct": 5.16,
+      "shareRatePct": 0.8,
+      "commentRatePct": 0.55,
+      "saveRatePct": 3.66,
+      "profileVisitRatePct": 1.75,
+      "followerGainRatePct": 0.41,
+      "engagementRatePct": 10.18
+    },
+    "summaryLowerBounds": {},
+    "contentLines": [
+      {
+        "name": "知识方法",
+        "workCount": 3,
+        "views": 28200,
+        "viewSharePct": 28.72,
+        "medianViews": 9200,
+        "saves": 1001,
+        "saveRatePct": 3.55,
+        "profileVisits": 471,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.67,
+        "followerGain": 111,
+        "followerGainRatePct": 0.39,
+        "weightedCompletionRatePct": 16.75,
+        "weightedFiveSecondCompletionRatePct": 41.79,
+        "weightedTwoSecondBounceRatePct": 34.14,
+        "weightedAverageWatchSeconds": 20.1
+      },
+      {
+        "name": "工作流实践",
+        "workCount": 2,
+        "views": 32800,
+        "viewSharePct": 33.4,
+        "medianViews": 16400,
+        "saves": 1194,
+        "saveRatePct": 3.64,
+        "profileVisits": 623,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.9,
+        "followerGain": 133,
+        "followerGainRatePct": 0.41,
+        "weightedCompletionRatePct": 16.8,
+        "weightedFiveSecondCompletionRatePct": 41.84,
+        "weightedTwoSecondBounceRatePct": 34.1,
+        "weightedAverageWatchSeconds": 32.12
+      },
+      {
+        "name": "本地工具",
+        "workCount": 3,
+        "views": 37200,
+        "viewSharePct": 37.88,
+        "medianViews": 11800,
+        "saves": 1402,
+        "saveRatePct": 3.77,
+        "profileVisits": 625,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.68,
+        "followerGain": 156,
+        "followerGainRatePct": 0.42,
+        "weightedCompletionRatePct": 19.69,
+        "weightedFiveSecondCompletionRatePct": 45.41,
+        "weightedTwoSecondBounceRatePct": 31.72,
+        "weightedAverageWatchSeconds": 26.78
+      }
+    ],
+    "formats": [
+      {
+        "name": "1min以下视频",
+        "workCount": 2,
+        "views": 19000,
+        "viewSharePct": 19.35,
+        "medianViews": 9500,
+        "saves": 633,
+        "saveRatePct": 3.33,
+        "profileVisits": 324,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.71,
+        "followerGain": 70,
+        "followerGainRatePct": 0.37,
+        "weightedCompletionRatePct": 16.2,
+        "weightedFiveSecondCompletionRatePct": 41.1,
+        "weightedTwoSecondBounceRatePct": 34.6,
+        "weightedAverageWatchSeconds": 17.76
+      },
+      {
+        "name": "1-5min视频",
+        "workCount": 6,
+        "views": 79200,
+        "viewSharePct": 80.65,
+        "medianViews": 13300,
+        "saves": 2964,
+        "saveRatePct": 3.74,
+        "profileVisits": 1395,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.76,
+        "followerGain": 330,
+        "followerGainRatePct": 0.42,
+        "weightedCompletionRatePct": 18.29,
+        "weightedFiveSecondCompletionRatePct": 43.68,
+        "weightedTwoSecondBounceRatePct": 32.88,
+        "weightedAverageWatchSeconds": 28.78
+      }
+    ],
+    "roles": [
+      {
+        "name": "概念解释",
+        "workCount": 2,
+        "views": 19000,
+        "viewSharePct": 19.35,
+        "medianViews": 9500,
+        "saves": 633,
+        "saveRatePct": 3.33,
+        "profileVisits": 324,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.71,
+        "followerGain": 70,
+        "followerGainRatePct": 0.37,
+        "weightedCompletionRatePct": 16.2,
+        "weightedFiveSecondCompletionRatePct": 41.1,
+        "weightedTwoSecondBounceRatePct": 34.6,
+        "weightedAverageWatchSeconds": 17.76
+      },
+      {
+        "name": "案例演示",
+        "workCount": 2,
+        "views": 27200,
+        "viewSharePct": 27.7,
+        "medianViews": 13600,
+        "saves": 1088,
+        "saveRatePct": 4,
+        "profileVisits": 489,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.8,
+        "followerGain": 122,
+        "followerGainRatePct": 0.45,
+        "weightedCompletionRatePct": 15.65,
+        "weightedFiveSecondCompletionRatePct": 40.42,
+        "weightedTwoSecondBounceRatePct": 35.05,
+        "weightedAverageWatchSeconds": 29.34
+      },
+      {
+        "name": "工作流演示",
+        "workCount": 1,
+        "views": 14800,
+        "viewSharePct": 15.07,
+        "medianViews": 14800,
+        "saves": 474,
+        "saveRatePct": 3.2,
+        "profileVisits": 281,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.9,
+        "followerGain": 52,
+        "followerGainRatePct": 0.35,
+        "weightedCompletionRatePct": 19.6,
+        "weightedFiveSecondCompletionRatePct": 45.3,
+        "weightedTwoSecondBounceRatePct": 31.8,
+        "weightedAverageWatchSeconds": 32.76
+      },
+      {
+        "name": "工具演示",
+        "workCount": 2,
+        "views": 21600,
+        "viewSharePct": 22,
+        "medianViews": 10800,
+        "saves": 778,
+        "saveRatePct": 3.6,
+        "profileVisits": 375,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.74,
+        "followerGain": 86,
+        "followerGainRatePct": 0.4,
+        "weightedCompletionRatePct": 19.76,
+        "weightedFiveSecondCompletionRatePct": 45.49,
+        "weightedTwoSecondBounceRatePct": 31.67,
+        "weightedAverageWatchSeconds": 26.91
+      },
+      {
+        "name": "隐私边界",
+        "workCount": 1,
+        "views": 15600,
+        "viewSharePct": 15.89,
+        "medianViews": 15600,
+        "saves": 624,
+        "saveRatePct": 4,
+        "profileVisits": 250,
+        "profileVisitsIsLowerBound": false,
+        "profileVisitRatePct": 1.6,
+        "followerGain": 70,
+        "followerGainRatePct": 0.45,
+        "weightedCompletionRatePct": 19.6,
+        "weightedFiveSecondCompletionRatePct": 45.3,
+        "weightedTwoSecondBounceRatePct": 31.8,
+        "weightedAverageWatchSeconds": 26.6
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-11",
+        "workCount": 2,
+        "views": 15600,
+        "likes": 832,
+        "shares": 122,
+        "comments": 87,
+        "saves": 598,
+        "profileVisits": 269,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 67,
+        "weightedCompletionRatePct": 17.2,
+        "weightedFiveSecondCompletionRatePct": 42.34,
+        "weightedTwoSecondBounceRatePct": 33.77,
+        "weightedAverageWatchSeconds": 20.36
+      },
+      {
+        "month": "2025-12",
+        "workCount": 2,
+        "views": 26600,
+        "likes": 1298,
+        "shares": 216,
+        "comments": 151,
+        "saves": 899,
+        "profileVisits": 470,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 99,
+        "weightedCompletionRatePct": 20.35,
+        "weightedFiveSecondCompletionRatePct": 46.23,
+        "weightedTwoSecondBounceRatePct": 31.18,
+        "weightedAverageWatchSeconds": 29.35
+      },
+      {
+        "month": "2026-01",
+        "workCount": 4,
+        "views": 56000,
+        "likes": 2940,
+        "shares": 447,
+        "comments": 303,
+        "saves": 2100,
+        "profileVisits": 980,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 234,
+        "weightedCompletionRatePct": 16.9,
+        "weightedFiveSecondCompletionRatePct": 41.96,
+        "weightedTwoSecondBounceRatePct": 34.02,
+        "weightedAverageWatchSeconds": 27.11
+      }
+    ],
+    "qualityIssues": [
+      {
+        "issue": "当前页面展示完整 synthetic demo 数据",
+        "affectedWorks": "8 条作品、30 个账号日点、8 个深度包",
+        "resolution": "连接自己的授权导出后替换整个 current.json；未知字段保持 null。"
+      }
+    ],
+    "qualityFlags": [
+      "synthetic_demo",
+      "complete_demo_contract"
+    ],
+    "works": [
+      {
+        "id": "demo-work-001",
+        "platformWorkId": "synthetic-001",
+        "rowNumber": 1,
+        "publishedAt": "2025-11-08 10:00:00",
+        "title": "先别总结，先把证据留住",
+        "format": "1min以下视频",
+        "reviewStatus": "公开",
+        "durationSeconds": 34,
+        "views": 6400,
+        "likes": 326,
+        "shares": 58,
+        "comments": 33,
+        "saves": 230,
+        "engagements": 647,
+        "profileVisits": 122,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 26,
+        "completionRatePct": 16.2,
+        "fiveSecondCompletionRatePct": 41.1,
+        "twoSecondBounceRatePct": 34.6,
+        "averageWatchSeconds": 13.77,
+        "likeRatePct": 5.09,
+        "shareRatePct": 0.91,
+        "commentRatePct": 0.52,
+        "saveRatePct": 3.59,
+        "engagementRatePct": 10.11,
+        "profileVisitRatePct": 1.91,
+        "followerGainRatePct": 0.41,
+        "coverClickRatePct": 5.5,
+        "contentLine": "知识方法",
+        "contentRole": "概念解释",
+        "history": [
+          {
+            "capturedAt": "2025-11-08T04:00:00.000Z",
+            "views": 768,
+            "likes": 39,
+            "comments": 4,
+            "shares": 7,
+            "saves": 28,
+            "followerGain": 3,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-001.json"
+          },
+          {
+            "capturedAt": "2025-11-09T02:00:00.000Z",
+            "views": 3072,
+            "likes": 156,
+            "comments": 16,
+            "shares": 28,
+            "saves": 110,
+            "followerGain": 12,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-001.json"
+          },
+          {
+            "capturedAt": "2025-11-11T02:00:00.000Z",
+            "views": 4992,
+            "likes": 254,
+            "comments": 26,
+            "shares": 45,
+            "saves": 179,
+            "followerGain": 20,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-001.json"
+          },
+          {
+            "capturedAt": "2025-11-15T02:00:00.000Z",
+            "views": 6400,
+            "likes": 326,
+            "comments": 33,
+            "shares": 58,
+            "saves": 230,
+            "followerGain": 26,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-001.json"
+          }
+        ],
+        "qualityFlags": [
+          "synthetic_demo"
+        ]
+      },
+      {
+        "id": "demo-work-002",
+        "platformWorkId": "synthetic-002",
+        "rowNumber": 2,
+        "publishedAt": "2025-11-22 10:00:00",
+        "title": "一条旧笔记怎样重新帮上忙",
+        "format": "1-5min视频",
+        "reviewStatus": "公开",
+        "durationSeconds": 58,
+        "views": 9200,
+        "likes": 506,
+        "shares": 64,
+        "comments": 54,
+        "saves": 368,
+        "engagements": 992,
+        "profileVisits": 147,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 41,
+        "completionRatePct": 17.9,
+        "fiveSecondCompletionRatePct": 43.2,
+        "twoSecondBounceRatePct": 33.2,
+        "averageWatchSeconds": 24.94,
+        "likeRatePct": 5.5,
+        "shareRatePct": 0.7,
+        "commentRatePct": 0.59,
+        "saveRatePct": 4,
+        "engagementRatePct": 10.78,
+        "profileVisitRatePct": 1.6,
+        "followerGainRatePct": 0.45,
+        "coverClickRatePct": 6.2,
+        "contentLine": "知识方法",
+        "contentRole": "案例演示",
+        "history": [
+          {
+            "capturedAt": "2025-11-22T04:00:00.000Z",
+            "views": 1104,
+            "likes": 61,
+            "comments": 6,
+            "shares": 8,
+            "saves": 44,
+            "followerGain": 5,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-002.json"
+          },
+          {
+            "capturedAt": "2025-11-23T02:00:00.000Z",
+            "views": 4416,
+            "likes": 243,
+            "comments": 26,
+            "shares": 31,
+            "saves": 177,
+            "followerGain": 20,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-002.json"
+          },
+          {
+            "capturedAt": "2025-11-25T02:00:00.000Z",
+            "views": 7176,
+            "likes": 395,
+            "comments": 42,
+            "shares": 50,
+            "saves": 287,
+            "followerGain": 32,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-002.json"
+          },
+          {
+            "capturedAt": "2025-11-29T02:00:00.000Z",
+            "views": 9200,
+            "likes": 506,
+            "comments": 54,
+            "shares": 64,
+            "saves": 368,
+            "followerGain": 41,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-002.json"
+          }
+        ],
+        "qualityFlags": [
+          "synthetic_demo"
+        ]
+      },
+      {
+        "id": "demo-work-003",
+        "platformWorkId": "synthetic-003",
+        "rowNumber": 3,
+        "publishedAt": "2025-12-06 10:00:00",
+        "title": "我把会议记录变成行动清单",
+        "format": "1-5min视频",
+        "reviewStatus": "公开",
+        "durationSeconds": 72,
+        "views": 14800,
+        "likes": 696,
+        "shares": 133,
+        "comments": 98,
+        "saves": 474,
+        "engagements": 1401,
+        "profileVisits": 281,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 52,
+        "completionRatePct": 19.6,
+        "fiveSecondCompletionRatePct": 45.3,
+        "twoSecondBounceRatePct": 31.8,
+        "averageWatchSeconds": 32.76,
+        "likeRatePct": 4.7,
+        "shareRatePct": 0.9,
+        "commentRatePct": 0.66,
+        "saveRatePct": 3.2,
+        "engagementRatePct": 9.47,
+        "profileVisitRatePct": 1.9,
+        "followerGainRatePct": 0.35,
+        "coverClickRatePct": 6.9,
+        "contentLine": "工作流实践",
+        "contentRole": "工作流演示",
+        "history": [
+          {
+            "capturedAt": "2025-12-06T04:00:00.000Z",
+            "views": 1776,
+            "likes": 84,
+            "comments": 12,
+            "shares": 16,
+            "saves": 57,
+            "followerGain": 6,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-003.json"
+          },
+          {
+            "capturedAt": "2025-12-07T02:00:00.000Z",
+            "views": 7104,
+            "likes": 334,
+            "comments": 47,
+            "shares": 64,
+            "saves": 228,
+            "followerGain": 25,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-003.json"
+          },
+          {
+            "capturedAt": "2025-12-09T02:00:00.000Z",
+            "views": 11544,
+            "likes": 543,
+            "comments": 76,
+            "shares": 104,
+            "saves": 370,
+            "followerGain": 41,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-003.json"
+          },
+          {
+            "capturedAt": "2025-12-13T02:00:00.000Z",
+            "views": 14800,
+            "likes": 696,
+            "comments": 98,
+            "shares": 133,
+            "saves": 474,
+            "followerGain": 52,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-003.json"
+          }
+        ],
+        "qualityFlags": [
+          "synthetic_demo"
+        ]
+      },
+      {
+        "id": "demo-work-004",
+        "platformWorkId": "synthetic-004",
+        "rowNumber": 4,
+        "publishedAt": "2025-12-20 10:00:00",
+        "title": "本地 AI 工作台的三个暂停点",
+        "format": "1-5min视频",
+        "reviewStatus": "公开",
+        "durationSeconds": 66,
+        "views": 11800,
+        "likes": 602,
+        "shares": 83,
+        "comments": 53,
+        "saves": 425,
+        "engagements": 1163,
+        "profileVisits": 189,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 47,
+        "completionRatePct": 21.3,
+        "fiveSecondCompletionRatePct": 47.4,
+        "twoSecondBounceRatePct": 30.4,
+        "averageWatchSeconds": 25.08,
+        "likeRatePct": 5.1,
+        "shareRatePct": 0.7,
+        "commentRatePct": 0.45,
+        "saveRatePct": 3.6,
+        "engagementRatePct": 9.86,
+        "profileVisitRatePct": 1.6,
+        "followerGainRatePct": 0.4,
+        "coverClickRatePct": 4.8,
+        "contentLine": "本地工具",
+        "contentRole": "工具演示",
+        "history": [
+          {
+            "capturedAt": "2025-12-20T04:00:00.000Z",
+            "views": 1416,
+            "likes": 72,
+            "comments": 6,
+            "shares": 10,
+            "saves": 51,
+            "followerGain": 6,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-004.json"
+          },
+          {
+            "capturedAt": "2025-12-21T02:00:00.000Z",
+            "views": 5664,
+            "likes": 289,
+            "comments": 25,
+            "shares": 40,
+            "saves": 204,
+            "followerGain": 23,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-004.json"
+          },
+          {
+            "capturedAt": "2025-12-23T02:00:00.000Z",
+            "views": 9204,
+            "likes": 470,
+            "comments": 41,
+            "shares": 65,
+            "saves": 332,
+            "followerGain": 37,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-004.json"
+          },
+          {
+            "capturedAt": "2025-12-27T02:00:00.000Z",
+            "views": 11800,
+            "likes": 602,
+            "comments": 53,
+            "shares": 83,
+            "saves": 425,
+            "followerGain": 47,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-004.json"
+          }
+        ],
+        "qualityFlags": [
+          "synthetic_demo"
+        ]
+      },
+      {
+        "id": "demo-work-005",
+        "platformWorkId": "synthetic-005",
+        "rowNumber": 5,
+        "publishedAt": "2026-01-03 10:00:00",
+        "title": "用一份旧资料完成新的研究提纲",
+        "format": "1-5min视频",
+        "reviewStatus": "公开",
+        "durationSeconds": 78,
+        "views": 18000,
+        "likes": 990,
+        "shares": 162,
+        "comments": 94,
+        "saves": 720,
+        "engagements": 1966,
+        "profileVisits": 342,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 81,
+        "completionRatePct": 14.5,
+        "fiveSecondCompletionRatePct": 39,
+        "twoSecondBounceRatePct": 36,
+        "averageWatchSeconds": 31.59,
+        "likeRatePct": 5.5,
+        "shareRatePct": 0.9,
+        "commentRatePct": 0.52,
+        "saveRatePct": 4,
+        "engagementRatePct": 10.92,
+        "profileVisitRatePct": 1.9,
+        "followerGainRatePct": 0.45,
+        "coverClickRatePct": 5.5,
+        "contentLine": "工作流实践",
+        "contentRole": "案例演示",
+        "history": [
+          {
+            "capturedAt": "2026-01-03T04:00:00.000Z",
+            "views": 2160,
+            "likes": 119,
+            "comments": 11,
+            "shares": 19,
+            "saves": 86,
+            "followerGain": 10,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-005.json"
+          },
+          {
+            "capturedAt": "2026-01-04T02:00:00.000Z",
+            "views": 8640,
+            "likes": 475,
+            "comments": 45,
+            "shares": 78,
+            "saves": 346,
+            "followerGain": 39,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-005.json"
+          },
+          {
+            "capturedAt": "2026-01-06T02:00:00.000Z",
+            "views": 14040,
+            "likes": 772,
+            "comments": 73,
+            "shares": 126,
+            "saves": 562,
+            "followerGain": 63,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-005.json"
+          },
+          {
+            "capturedAt": "2026-01-10T02:00:00.000Z",
+            "views": 18000,
+            "likes": 990,
+            "comments": 94,
+            "shares": 162,
+            "saves": 720,
+            "followerGain": 81,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-005.json"
+          }
+        ],
+        "qualityFlags": [
+          "synthetic_demo"
+        ]
+      },
+      {
+        "id": "demo-work-006",
+        "platformWorkId": "synthetic-006",
+        "rowNumber": 6,
+        "publishedAt": "2026-01-10 10:00:00",
+        "title": "Raw 和 Wiki 到底有什么区别",
+        "format": "1min以下视频",
+        "reviewStatus": "公开",
+        "durationSeconds": 46,
+        "views": 12600,
+        "likes": 592,
+        "shares": 88,
+        "comments": 74,
+        "saves": 403,
+        "engagements": 1157,
+        "profileVisits": 202,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 44,
+        "completionRatePct": 16.2,
+        "fiveSecondCompletionRatePct": 41.1,
+        "twoSecondBounceRatePct": 34.6,
+        "averageWatchSeconds": 19.78,
+        "likeRatePct": 4.7,
+        "shareRatePct": 0.7,
+        "commentRatePct": 0.59,
+        "saveRatePct": 3.2,
+        "engagementRatePct": 9.18,
+        "profileVisitRatePct": 1.6,
+        "followerGainRatePct": 0.35,
+        "coverClickRatePct": 6.2,
+        "contentLine": "知识方法",
+        "contentRole": "概念解释",
+        "history": [
+          {
+            "capturedAt": "2026-01-10T04:00:00.000Z",
+            "views": 1512,
+            "likes": 71,
+            "comments": 9,
+            "shares": 11,
+            "saves": 48,
+            "followerGain": 5,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-006.json"
+          },
+          {
+            "capturedAt": "2026-01-11T02:00:00.000Z",
+            "views": 6048,
+            "likes": 284,
+            "comments": 36,
+            "shares": 42,
+            "saves": 193,
+            "followerGain": 21,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-006.json"
+          },
+          {
+            "capturedAt": "2026-01-13T02:00:00.000Z",
+            "views": 9828,
+            "likes": 462,
+            "comments": 58,
+            "shares": 69,
+            "saves": 314,
+            "followerGain": 34,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-006.json"
+          },
+          {
+            "capturedAt": "2026-01-17T02:00:00.000Z",
+            "views": 12600,
+            "likes": 592,
+            "comments": 74,
+            "shares": 88,
+            "saves": 403,
+            "followerGain": 44,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-006.json"
+          }
+        ],
+        "qualityFlags": [
+          "synthetic_demo"
+        ]
+      },
+      {
+        "id": "demo-work-007",
+        "platformWorkId": "synthetic-007",
+        "rowNumber": 7,
+        "publishedAt": "2026-01-17 10:00:00",
+        "title": "本地工作台怎样读取 Markdown",
+        "format": "1-5min视频",
+        "reviewStatus": "公开",
+        "durationSeconds": 64,
+        "views": 9800,
+        "likes": 500,
+        "shares": 88,
+        "comments": 65,
+        "saves": 353,
+        "engagements": 1006,
+        "profileVisits": 186,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 39,
+        "completionRatePct": 17.9,
+        "fiveSecondCompletionRatePct": 43.2,
+        "twoSecondBounceRatePct": 33.2,
+        "averageWatchSeconds": 29.12,
+        "likeRatePct": 5.1,
+        "shareRatePct": 0.9,
+        "commentRatePct": 0.66,
+        "saveRatePct": 3.6,
+        "engagementRatePct": 10.27,
+        "profileVisitRatePct": 1.9,
+        "followerGainRatePct": 0.4,
+        "coverClickRatePct": 6.9,
+        "contentLine": "本地工具",
+        "contentRole": "工具演示",
+        "history": [
+          {
+            "capturedAt": "2026-01-17T04:00:00.000Z",
+            "views": 1176,
+            "likes": 60,
+            "comments": 8,
+            "shares": 11,
+            "saves": 42,
+            "followerGain": 5,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-007.json"
+          },
+          {
+            "capturedAt": "2026-01-18T02:00:00.000Z",
+            "views": 4704,
+            "likes": 240,
+            "comments": 31,
+            "shares": 42,
+            "saves": 169,
+            "followerGain": 19,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-007.json"
+          },
+          {
+            "capturedAt": "2026-01-20T02:00:00.000Z",
+            "views": 7644,
+            "likes": 390,
+            "comments": 51,
+            "shares": 69,
+            "saves": 275,
+            "followerGain": 30,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-007.json"
+          },
+          {
+            "capturedAt": "2026-01-24T02:00:00.000Z",
+            "views": 9800,
+            "likes": 500,
+            "comments": 65,
+            "shares": 88,
+            "saves": 353,
+            "followerGain": 39,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-007.json"
+          }
+        ],
+        "qualityFlags": [
+          "synthetic_demo"
+        ]
+      },
+      {
+        "id": "demo-work-008",
+        "platformWorkId": "synthetic-008",
+        "rowNumber": 8,
+        "publishedAt": "2026-01-24 10:00:00",
+        "title": "开源个人系统前我检查了什么",
+        "format": "1-5min视频",
+        "reviewStatus": "公开",
+        "durationSeconds": 70,
+        "views": 15600,
+        "likes": 858,
+        "shares": 109,
+        "comments": 70,
+        "saves": 624,
+        "engagements": 1661,
+        "profileVisits": 250,
+        "profileVisitsIsLowerBound": false,
+        "followerGain": 70,
+        "completionRatePct": 19.6,
+        "fiveSecondCompletionRatePct": 45.3,
+        "twoSecondBounceRatePct": 31.8,
+        "averageWatchSeconds": 26.6,
+        "likeRatePct": 5.5,
+        "shareRatePct": 0.7,
+        "commentRatePct": 0.45,
+        "saveRatePct": 4,
+        "engagementRatePct": 10.65,
+        "profileVisitRatePct": 1.6,
+        "followerGainRatePct": 0.45,
+        "coverClickRatePct": 4.8,
+        "contentLine": "本地工具",
+        "contentRole": "隐私边界",
+        "history": [
+          {
+            "capturedAt": "2026-01-24T04:00:00.000Z",
+            "views": 1872,
+            "likes": 103,
+            "comments": 8,
+            "shares": 13,
+            "saves": 75,
+            "followerGain": 8,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-008.json"
+          },
+          {
+            "capturedAt": "2026-01-25T02:00:00.000Z",
+            "views": 7488,
+            "likes": 412,
+            "comments": 34,
+            "shares": 52,
+            "saves": 300,
+            "followerGain": 34,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-008.json"
+          },
+          {
+            "capturedAt": "2026-01-27T02:00:00.000Z",
+            "views": 12168,
+            "likes": 669,
+            "comments": 55,
+            "shares": 85,
+            "saves": 487,
+            "followerGain": 55,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-008.json"
+          },
+          {
+            "capturedAt": "2026-01-31T02:00:00.000Z",
+            "views": 15600,
+            "likes": 858,
+            "comments": 70,
+            "shares": 109,
+            "saves": 624,
+            "followerGain": 70,
+            "sourcePath": "30_self_media/douyin/synthetic/history/synthetic-008.json"
+          }
+        ],
+        "qualityFlags": [
+          "synthetic_demo"
+        ]
+      }
+    ],
+    "analytics": {
+      "snapshot": {
+        "capturedAt": "2026-01-31T20:30:00+08:00",
+        "timezone": "Asia/Shanghai",
+        "snapshotCount": 4,
+        "rootPath": "30_self_media/douyin",
+        "isRealtime": false
+      },
+      "coverage": {
+        "totalWorkCount": 8,
+        "historyCoveredWorks": 8,
+        "deepWorkCount": 8,
+        "deepFieldCount": 27,
+        "accountDailyRows": 30,
+        "pageOnlyRows": 216,
+        "assets": [
+          {
+            "id": "account-content-daily",
+            "label": "账号内容日序列",
+            "status": "complete",
+            "rowCount": 30,
+            "fieldCount": 9,
+            "range": {
+              "from": "2026-01-01",
+              "to": "2026-01-30"
+            },
+            "grain": "账号 × 自然日",
+            "sourcePath": "30_self_media/douyin/synthetic/account-content-daily.csv"
+          },
+          {
+            "id": "account-follower-daily",
+            "label": "粉丝日序列",
+            "status": "complete",
+            "rowCount": 30,
+            "fieldCount": 6,
+            "range": {
+              "from": "2026-01-01",
+              "to": "2026-01-30"
+            },
+            "grain": "账号 × 自然日",
+            "sourcePath": "30_self_media/douyin/synthetic/account-follower-daily.csv"
+          },
+          {
+            "id": "all-works",
+            "label": "当前全量作品",
+            "status": "complete",
+            "rowCount": 8,
+            "fieldCount": 31,
+            "range": {
+              "from": "2025-11-08 10:00:00",
+              "to": "2026-01-24 10:00:00"
+            },
+            "grain": "作品 × 采集快照",
+            "sourcePath": "30_self_media/douyin/current.json"
+          },
+          {
+            "id": "content-analysis",
+            "label": "投稿分析概览",
+            "status": "complete",
+            "rowCount": 1,
+            "fieldCount": 12,
+            "range": "近 30 日",
+            "grain": "账号 × 分析窗口",
+            "sourcePath": "30_self_media/douyin/synthetic/content-overview.csv"
+          },
+          {
+            "id": "collections",
+            "label": "合集数据",
+            "status": "complete",
+            "rowCount": 2,
+            "fieldCount": 13,
+            "range": null,
+            "grain": "合集 × 采集快照",
+            "sourcePath": "30_self_media/douyin/synthetic/collections.csv"
+          },
+          {
+            "id": "deep-work",
+            "label": "单作品深度数据",
+            "status": "complete",
+            "rowCount": 676,
+            "fieldCount": 27,
+            "range": null,
+            "grain": "已采集 8 / 8 条作品",
+            "sourcePath": "30_self_media/douyin/synthetic/deep/"
+          },
+          {
+            "id": "page-evidence",
+            "label": "页面限定维度",
+            "status": "complete",
+            "rowCount": 216,
+            "fieldCount": 7,
+            "range": null,
+            "grain": "单作品 × 页面采集快照",
+            "sourcePath": "30_self_media/douyin/synthetic/page-evidence/"
+          }
+        ]
+      },
+      "qualityIssues": [],
+      "account": {
+        "daily": [
+          {
+            "date": "2026-01-01",
+            "posts": 0,
+            "views": 2100,
+            "likes": 110,
+            "comments": 18,
+            "fiveSecondCompletionRatePct": 40,
+            "twoSecondBounceRatePct": 35,
+            "coverClickRatePct": 5.2,
+            "averageWatchSeconds": 23,
+            "totalFollowers": 2387,
+            "netFollowerGain": 7,
+            "followersGained": 9,
+            "followersLost": 2,
+            "returningFollowers": 48
+          },
+          {
+            "date": "2026-01-02",
+            "posts": 0,
+            "views": 2833,
+            "likes": 147,
+            "comments": 29,
+            "fiveSecondCompletionRatePct": 41.15,
+            "twoSecondBounceRatePct": 34.2,
+            "coverClickRatePct": 5.65,
+            "averageWatchSeconds": 24.1,
+            "totalFollowers": 2397,
+            "netFollowerGain": 10,
+            "followersGained": 13,
+            "followersLost": 3,
+            "returningFollowers": 61
+          },
+          {
+            "date": "2026-01-03",
+            "posts": 1,
+            "views": 3566,
+            "likes": 184,
+            "comments": 40,
+            "fiveSecondCompletionRatePct": 42.3,
+            "twoSecondBounceRatePct": 33.4,
+            "coverClickRatePct": 6.1,
+            "averageWatchSeconds": 25.2,
+            "totalFollowers": 2410,
+            "netFollowerGain": 13,
+            "followersGained": 17,
+            "followersLost": 4,
+            "returningFollowers": 74
+          },
+          {
+            "date": "2026-01-04",
+            "posts": 0,
+            "views": 4299,
+            "likes": 221,
+            "comments": 51,
+            "fiveSecondCompletionRatePct": 43.45,
+            "twoSecondBounceRatePct": 32.6,
+            "coverClickRatePct": 6.55,
+            "averageWatchSeconds": 26.3,
+            "totalFollowers": 2423,
+            "netFollowerGain": 13,
+            "followersGained": 15,
+            "followersLost": 2,
+            "returningFollowers": 87
+          },
+          {
+            "date": "2026-01-05",
+            "posts": 0,
+            "views": 5032,
+            "likes": 258,
+            "comments": 19,
+            "fiveSecondCompletionRatePct": 44.6,
+            "twoSecondBounceRatePct": 31.8,
+            "coverClickRatePct": 7,
+            "averageWatchSeconds": 27.4,
+            "totalFollowers": 2439,
+            "netFollowerGain": 16,
+            "followersGained": 19,
+            "followersLost": 3,
+            "returningFollowers": 100
+          },
+          {
+            "date": "2026-01-06",
+            "posts": 0,
+            "views": 2665,
+            "likes": 295,
+            "comments": 30,
+            "fiveSecondCompletionRatePct": 45.75,
+            "twoSecondBounceRatePct": 31,
+            "coverClickRatePct": 5.2,
+            "averageWatchSeconds": 28.5,
+            "totalFollowers": 2448,
+            "netFollowerGain": 9,
+            "followersGained": 13,
+            "followersLost": 4,
+            "returningFollowers": 113
+          },
+          {
+            "date": "2026-01-07",
+            "posts": 0,
+            "views": 3398,
+            "likes": 142,
+            "comments": 41,
+            "fiveSecondCompletionRatePct": 46.9,
+            "twoSecondBounceRatePct": 35,
+            "coverClickRatePct": 5.65,
+            "averageWatchSeconds": 29.6,
+            "totalFollowers": 2457,
+            "netFollowerGain": 9,
+            "followersGained": 11,
+            "followersLost": 2,
+            "returningFollowers": 54
+          },
+          {
+            "date": "2026-01-08",
+            "posts": 0,
+            "views": 4131,
+            "likes": 179,
+            "comments": 52,
+            "fiveSecondCompletionRatePct": 40,
+            "twoSecondBounceRatePct": 34.2,
+            "coverClickRatePct": 6.1,
+            "averageWatchSeconds": 30.7,
+            "totalFollowers": 2469,
+            "netFollowerGain": 12,
+            "followersGained": 15,
+            "followersLost": 3,
+            "returningFollowers": 67
+          },
+          {
+            "date": "2026-01-09",
+            "posts": 0,
+            "views": 4864,
+            "likes": 216,
+            "comments": 20,
+            "fiveSecondCompletionRatePct": 41.15,
+            "twoSecondBounceRatePct": 33.4,
+            "coverClickRatePct": 6.55,
+            "averageWatchSeconds": 23,
+            "totalFollowers": 2484,
+            "netFollowerGain": 15,
+            "followersGained": 19,
+            "followersLost": 4,
+            "returningFollowers": 80
+          },
+          {
+            "date": "2026-01-10",
+            "posts": 1,
+            "views": 2497,
+            "likes": 253,
+            "comments": 31,
+            "fiveSecondCompletionRatePct": 42.3,
+            "twoSecondBounceRatePct": 32.6,
+            "coverClickRatePct": 7,
+            "averageWatchSeconds": 24.1,
+            "totalFollowers": 2499,
+            "netFollowerGain": 15,
+            "followersGained": 17,
+            "followersLost": 2,
+            "returningFollowers": 93
+          },
+          {
+            "date": "2026-01-11",
+            "posts": 0,
+            "views": 3230,
+            "likes": 290,
+            "comments": 42,
+            "fiveSecondCompletionRatePct": 43.45,
+            "twoSecondBounceRatePct": 31.8,
+            "coverClickRatePct": 5.2,
+            "averageWatchSeconds": 25.2,
+            "totalFollowers": 2507,
+            "netFollowerGain": 8,
+            "followersGained": 11,
+            "followersLost": 3,
+            "returningFollowers": 106
+          },
+          {
+            "date": "2026-01-12",
+            "posts": 0,
+            "views": 3963,
+            "likes": 137,
+            "comments": 53,
+            "fiveSecondCompletionRatePct": 44.6,
+            "twoSecondBounceRatePct": 31,
+            "coverClickRatePct": 5.65,
+            "averageWatchSeconds": 26.3,
+            "totalFollowers": 2518,
+            "netFollowerGain": 11,
+            "followersGained": 15,
+            "followersLost": 4,
+            "returningFollowers": 119
+          },
+          {
+            "date": "2026-01-13",
+            "posts": 0,
+            "views": 4696,
+            "likes": 174,
+            "comments": 21,
+            "fiveSecondCompletionRatePct": 45.75,
+            "twoSecondBounceRatePct": 35,
+            "coverClickRatePct": 6.1,
+            "averageWatchSeconds": 27.4,
+            "totalFollowers": 2529,
+            "netFollowerGain": 11,
+            "followersGained": 13,
+            "followersLost": 2,
+            "returningFollowers": 60
+          },
+          {
+            "date": "2026-01-14",
+            "posts": 0,
+            "views": 2329,
+            "likes": 211,
+            "comments": 32,
+            "fiveSecondCompletionRatePct": 46.9,
+            "twoSecondBounceRatePct": 34.2,
+            "coverClickRatePct": 6.55,
+            "averageWatchSeconds": 28.5,
+            "totalFollowers": 2543,
+            "netFollowerGain": 14,
+            "followersGained": 17,
+            "followersLost": 3,
+            "returningFollowers": 73
+          },
+          {
+            "date": "2026-01-15",
+            "posts": 0,
+            "views": 3062,
+            "likes": 248,
+            "comments": 43,
+            "fiveSecondCompletionRatePct": 40,
+            "twoSecondBounceRatePct": 33.4,
+            "coverClickRatePct": 7,
+            "averageWatchSeconds": 29.6,
+            "totalFollowers": 2560,
+            "netFollowerGain": 17,
+            "followersGained": 21,
+            "followersLost": 4,
+            "returningFollowers": 86
+          },
+          {
+            "date": "2026-01-16",
+            "posts": 0,
+            "views": 3795,
+            "likes": 285,
+            "comments": 54,
+            "fiveSecondCompletionRatePct": 41.15,
+            "twoSecondBounceRatePct": 32.6,
+            "coverClickRatePct": 5.2,
+            "averageWatchSeconds": 30.7,
+            "totalFollowers": 2567,
+            "netFollowerGain": 7,
+            "followersGained": 9,
+            "followersLost": 2,
+            "returningFollowers": 99
+          },
+          {
+            "date": "2026-01-17",
+            "posts": 1,
+            "views": 4528,
+            "likes": 132,
+            "comments": 22,
+            "fiveSecondCompletionRatePct": 42.3,
+            "twoSecondBounceRatePct": 31.8,
+            "coverClickRatePct": 5.65,
+            "averageWatchSeconds": 23,
+            "totalFollowers": 2577,
+            "netFollowerGain": 10,
+            "followersGained": 13,
+            "followersLost": 3,
+            "returningFollowers": 112
+          },
+          {
+            "date": "2026-01-18",
+            "posts": 0,
+            "views": 2161,
+            "likes": 169,
+            "comments": 33,
+            "fiveSecondCompletionRatePct": 43.45,
+            "twoSecondBounceRatePct": 31,
+            "coverClickRatePct": 6.1,
+            "averageWatchSeconds": 24.1,
+            "totalFollowers": 2590,
+            "netFollowerGain": 13,
+            "followersGained": 17,
+            "followersLost": 4,
+            "returningFollowers": 53
+          },
+          {
+            "date": "2026-01-19",
+            "posts": 0,
+            "views": 2894,
+            "likes": 206,
+            "comments": 44,
+            "fiveSecondCompletionRatePct": 44.6,
+            "twoSecondBounceRatePct": 35,
+            "coverClickRatePct": 6.55,
+            "averageWatchSeconds": 25.2,
+            "totalFollowers": 2603,
+            "netFollowerGain": 13,
+            "followersGained": 15,
+            "followersLost": 2,
+            "returningFollowers": 66
+          },
+          {
+            "date": "2026-01-20",
+            "posts": 0,
+            "views": 3627,
+            "likes": 243,
+            "comments": 55,
+            "fiveSecondCompletionRatePct": 45.75,
+            "twoSecondBounceRatePct": 34.2,
+            "coverClickRatePct": 7,
+            "averageWatchSeconds": 26.3,
+            "totalFollowers": 2619,
+            "netFollowerGain": 16,
+            "followersGained": 19,
+            "followersLost": 3,
+            "returningFollowers": 79
+          },
+          {
+            "date": "2026-01-21",
+            "posts": 0,
+            "views": 4360,
+            "likes": 280,
+            "comments": 23,
+            "fiveSecondCompletionRatePct": 46.9,
+            "twoSecondBounceRatePct": 33.4,
+            "coverClickRatePct": 5.2,
+            "averageWatchSeconds": 27.4,
+            "totalFollowers": 2628,
+            "netFollowerGain": 9,
+            "followersGained": 13,
+            "followersLost": 4,
+            "returningFollowers": 92
+          },
+          {
+            "date": "2026-01-22",
+            "posts": 0,
+            "views": 5093,
+            "likes": 127,
+            "comments": 34,
+            "fiveSecondCompletionRatePct": 40,
+            "twoSecondBounceRatePct": 32.6,
+            "coverClickRatePct": 5.65,
+            "averageWatchSeconds": 28.5,
+            "totalFollowers": 2637,
+            "netFollowerGain": 9,
+            "followersGained": 11,
+            "followersLost": 2,
+            "returningFollowers": 105
+          },
+          {
+            "date": "2026-01-23",
+            "posts": 0,
+            "views": 2726,
+            "likes": 164,
+            "comments": 45,
+            "fiveSecondCompletionRatePct": 41.15,
+            "twoSecondBounceRatePct": 31.8,
+            "coverClickRatePct": 6.1,
+            "averageWatchSeconds": 29.6,
+            "totalFollowers": 2649,
+            "netFollowerGain": 12,
+            "followersGained": 15,
+            "followersLost": 3,
+            "returningFollowers": 118
+          },
+          {
+            "date": "2026-01-24",
+            "posts": 1,
+            "views": 3459,
+            "likes": 201,
+            "comments": 56,
+            "fiveSecondCompletionRatePct": 42.3,
+            "twoSecondBounceRatePct": 31,
+            "coverClickRatePct": 6.55,
+            "averageWatchSeconds": 30.7,
+            "totalFollowers": 2664,
+            "netFollowerGain": 15,
+            "followersGained": 19,
+            "followersLost": 4,
+            "returningFollowers": 59
+          },
+          {
+            "date": "2026-01-25",
+            "posts": 0,
+            "views": 4192,
+            "likes": 238,
+            "comments": 24,
+            "fiveSecondCompletionRatePct": 43.45,
+            "twoSecondBounceRatePct": 35,
+            "coverClickRatePct": 7,
+            "averageWatchSeconds": 23,
+            "totalFollowers": 2679,
+            "netFollowerGain": 15,
+            "followersGained": 17,
+            "followersLost": 2,
+            "returningFollowers": 72
+          },
+          {
+            "date": "2026-01-26",
+            "posts": 0,
+            "views": 4925,
+            "likes": 275,
+            "comments": 35,
+            "fiveSecondCompletionRatePct": 44.6,
+            "twoSecondBounceRatePct": 34.2,
+            "coverClickRatePct": 5.2,
+            "averageWatchSeconds": 24.1,
+            "totalFollowers": 2687,
+            "netFollowerGain": 8,
+            "followersGained": 11,
+            "followersLost": 3,
+            "returningFollowers": 85
+          },
+          {
+            "date": "2026-01-27",
+            "posts": 0,
+            "views": 2558,
+            "likes": 122,
+            "comments": 46,
+            "fiveSecondCompletionRatePct": 45.75,
+            "twoSecondBounceRatePct": 33.4,
+            "coverClickRatePct": 5.65,
+            "averageWatchSeconds": 25.2,
+            "totalFollowers": 2698,
+            "netFollowerGain": 11,
+            "followersGained": 15,
+            "followersLost": 4,
+            "returningFollowers": 98
+          },
+          {
+            "date": "2026-01-28",
+            "posts": 0,
+            "views": 3291,
+            "likes": 159,
+            "comments": 57,
+            "fiveSecondCompletionRatePct": 46.9,
+            "twoSecondBounceRatePct": 32.6,
+            "coverClickRatePct": 6.1,
+            "averageWatchSeconds": 26.3,
+            "totalFollowers": 2709,
+            "netFollowerGain": 11,
+            "followersGained": 13,
+            "followersLost": 2,
+            "returningFollowers": 111
+          },
+          {
+            "date": "2026-01-29",
+            "posts": 0,
+            "views": 4024,
+            "likes": 196,
+            "comments": 25,
+            "fiveSecondCompletionRatePct": 40,
+            "twoSecondBounceRatePct": 31.8,
+            "coverClickRatePct": 6.55,
+            "averageWatchSeconds": 27.4,
+            "totalFollowers": 2723,
+            "netFollowerGain": 14,
+            "followersGained": 17,
+            "followersLost": 3,
+            "returningFollowers": 52
+          },
+          {
+            "date": "2026-01-30",
+            "posts": 0,
+            "views": 4757,
+            "likes": 233,
+            "comments": 36,
+            "fiveSecondCompletionRatePct": 41.15,
+            "twoSecondBounceRatePct": 31,
+            "coverClickRatePct": 7,
+            "averageWatchSeconds": 28.5,
+            "totalFollowers": 2740,
+            "netFollowerGain": 17,
+            "followersGained": 21,
+            "followersLost": 4,
+            "returningFollowers": 65
+          }
+        ],
+        "summary": {
+          "from": "2026-01-01",
+          "to": "2026-01-30",
+          "dayCount": 30,
+          "posts": 4,
+          "views": 109055,
+          "likes": 6095,
+          "comments": 1111,
+          "netFollowerGain": 360,
+          "followersGained": 450,
+          "followersLost": 90,
+          "returningFollowers": 2487,
+          "latestFollowerTotal": 2740
+        },
+        "homeSnapshot": {
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourcePath": "30_self_media/douyin/synthetic/home-snapshot.json",
+          "account": {
+            "following": 186,
+            "followers": 2740,
+            "totalLikes": 48600
+          },
+          "latestPeriod": {
+            "label": "2026-01-02 至 2026-01-31",
+            "views": 109055,
+            "profileVisits": 4280,
+            "likes": 6095,
+            "shares": 1480,
+            "comments": 1111,
+            "netFollowerGain": 360
+          }
+        },
+        "contentOverview": {
+          "range": "2026-01-02 至 2026-01-31",
+          "formats": [
+            "1min以下视频",
+            "1-5min视频"
+          ],
+          "categories": [
+            "知识方法",
+            "工作流实践",
+            "本地工具"
+          ],
+          "publishedWorks": 4,
+          "averageCoverClickRatePct": 5.85,
+          "averageFiveSecondCompletionRatePct": 42.15,
+          "averageTwoSecondBounceRatePct": 33.9,
+          "averageWatchSeconds": 26.77,
+          "medianViews": 14100,
+          "averageLikes": 735,
+          "averageComments": 75.75,
+          "averageShares": 111.75
+        },
+        "sourcePaths": [
+          "30_self_media/douyin/synthetic/account-content-daily.csv",
+          "30_self_media/douyin/synthetic/account-follower-daily.csv",
+          "30_self_media/douyin/synthetic/content-overview.csv",
+          "30_self_media/douyin/synthetic/home-snapshot.json"
+        ]
+      },
+      "collections": [
+        {
+          "name": "本地知识工作示例",
+          "publishedAt": "2025-11-01",
+          "reviewStatus": "公开",
+          "views": 61200,
+          "completionRatePct": 18.8,
+          "coverClickRatePct": 6.2,
+          "twoSecondBounceRatePct": 31.4,
+          "averageWatchSeconds": 27.8,
+          "likes": 3210,
+          "shares": 620,
+          "comments": 390,
+          "saves": 2480,
+          "followerGain": 286
+        },
+        {
+          "name": "AI 工具实践示例",
+          "publishedAt": "2025-12-01",
+          "reviewStatus": "公开",
+          "views": 37000,
+          "completionRatePct": 17.1,
+          "coverClickRatePct": 5.8,
+          "twoSecondBounceRatePct": 33.2,
+          "averageWatchSeconds": 25.4,
+          "likes": 1860,
+          "shares": 340,
+          "comments": 220,
+          "saves": 1410,
+          "followerGain": 154
+        }
+      ],
+      "workDetails": {
+        "demo-work-001": {
+          "platformWorkId": "synthetic-001",
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourceKind": "synthetic-demo",
+          "sourcePaths": [
+            "30_self_media/douyin/synthetic/deep/synthetic-001/metrics.json",
+            "30_self_media/douyin/synthetic/deep/synthetic-001/audience.json"
+          ],
+          "metrics": {
+            "views": 6400,
+            "likes": 326,
+            "shares": 58,
+            "comments": 33,
+            "saves": 230,
+            "followerGain": 26,
+            "completionRatePct": 16.2,
+            "fiveSecondCompletionRatePct": 41.1,
+            "twoSecondBounceRatePct": 34.6,
+            "averageWatchSeconds": 13.77,
+            "averageWatchSharePct": 40.5,
+            "coverClickRatePct": 5.5,
+            "saveRatePct": 3.59,
+            "followerGainRatePct": 0.41,
+            "notInterested": 9
+          },
+          "hourlyViews": [
+            {
+              "date": "2025-11-08T02:00:00.000Z",
+              "value": 547,
+              "cumulative": 547
+            },
+            {
+              "date": "2025-11-08T03:00:00.000Z",
+              "value": 548,
+              "cumulative": 1095
+            },
+            {
+              "date": "2025-11-08T04:00:00.000Z",
+              "value": 476,
+              "cumulative": 1571
+            },
+            {
+              "date": "2025-11-08T05:00:00.000Z",
+              "value": 478,
+              "cumulative": 2049
+            },
+            {
+              "date": "2025-11-08T06:00:00.000Z",
+              "value": 479,
+              "cumulative": 2528
+            },
+            {
+              "date": "2025-11-08T07:00:00.000Z",
+              "value": 407,
+              "cumulative": 2935
+            },
+            {
+              "date": "2025-11-08T08:00:00.000Z",
+              "value": 409,
+              "cumulative": 3344
+            },
+            {
+              "date": "2025-11-08T09:00:00.000Z",
+              "value": 410,
+              "cumulative": 3754
+            },
+            {
+              "date": "2025-11-08T10:00:00.000Z",
+              "value": 338,
+              "cumulative": 4092
+            },
+            {
+              "date": "2025-11-08T11:00:00.000Z",
+              "value": 339,
+              "cumulative": 4431
+            },
+            {
+              "date": "2025-11-08T12:00:00.000Z",
+              "value": 341,
+              "cumulative": 4772
+            },
+            {
+              "date": "2025-11-08T13:00:00.000Z",
+              "value": 0,
+              "cumulative": 4772
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": "2025-11-08T02:00:00.000Z",
+              "value": 3,
+              "cumulative": 3
+            },
+            {
+              "date": "2025-11-08T03:00:00.000Z",
+              "value": 3,
+              "cumulative": 6
+            },
+            {
+              "date": "2025-11-08T04:00:00.000Z",
+              "value": 3,
+              "cumulative": 9
+            },
+            {
+              "date": "2025-11-08T05:00:00.000Z",
+              "value": 3,
+              "cumulative": 12
+            },
+            {
+              "date": "2025-11-08T06:00:00.000Z",
+              "value": 3,
+              "cumulative": 15
+            },
+            {
+              "date": "2025-11-08T07:00:00.000Z",
+              "value": 2,
+              "cumulative": 17
+            },
+            {
+              "date": "2025-11-08T08:00:00.000Z",
+              "value": 2,
+              "cumulative": 19
+            },
+            {
+              "date": "2025-11-08T09:00:00.000Z",
+              "value": 0,
+              "cumulative": 19
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": "2025-11-07",
+              "value": 4,
+              "douyin": 3,
+              "douyinFeatured": 0
+            },
+            {
+              "date": "2025-11-08",
+              "value": 7,
+              "douyin": 7,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2025-11-09",
+              "value": 11,
+              "douyin": 10,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2025-11-10",
+              "value": 15,
+              "douyin": 13,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2025-11-11",
+              "value": 19,
+              "douyin": 16,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2025-11-12",
+              "value": 22,
+              "douyin": 20,
+              "douyinFeatured": 3
+            },
+            {
+              "date": "2025-11-13",
+              "value": 26,
+              "douyin": 23,
+              "douyinFeatured": 3
+            }
+          ],
+          "progress": [
+            {
+              "time": "0s",
+              "skipRatePct": 0,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "2s",
+              "skipRatePct": 10.2,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "5s",
+              "skipRatePct": 20.4,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "10s",
+              "skipRatePct": 30.6,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "20s",
+              "skipRatePct": 40.8,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "30s",
+              "skipRatePct": 51,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "34s",
+              "skipRatePct": 61.2,
+              "rewatchRatePct": 6.9
+            }
+          ],
+          "retention": [
+            {
+              "time": "0s",
+              "valuePct": 100,
+              "peerPct": 98
+            },
+            {
+              "time": "2s",
+              "valuePct": 90.5,
+              "peerPct": 88.8
+            },
+            {
+              "time": "5s",
+              "valuePct": 81,
+              "peerPct": 79.6
+            },
+            {
+              "time": "10s",
+              "valuePct": 71.5,
+              "peerPct": 70.4
+            },
+            {
+              "time": "20s",
+              "valuePct": 62,
+              "peerPct": 61.2
+            },
+            {
+              "time": "30s",
+              "valuePct": 52.5,
+              "peerPct": 52
+            },
+            {
+              "time": "34s",
+              "valuePct": 43,
+              "peerPct": 42.8
+            }
+          ],
+          "bounce": [
+            {
+              "time": "0s",
+              "valuePct": 0,
+              "peerPct": 2
+            },
+            {
+              "time": "2s",
+              "valuePct": 10.2,
+              "peerPct": 11.7
+            },
+            {
+              "time": "5s",
+              "valuePct": 20.4,
+              "peerPct": 21.4
+            },
+            {
+              "time": "10s",
+              "valuePct": 30.6,
+              "peerPct": 31.1
+            },
+            {
+              "time": "20s",
+              "valuePct": 40.8,
+              "peerPct": 40.8
+            },
+            {
+              "time": "30s",
+              "valuePct": 51,
+              "peerPct": 50.5
+            },
+            {
+              "time": "34s",
+              "valuePct": 61.2,
+              "peerPct": 60.2
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": "推荐页",
+              "sharePct": 63,
+              "comparedWithSevenDaysPct": 4.2,
+              "comparisonRaw": "+4.2%"
+            },
+            {
+              "name": "搜索",
+              "sharePct": 16,
+              "comparedWithSevenDaysPct": 2.1,
+              "comparisonRaw": "+2.1%"
+            },
+            {
+              "name": "主页",
+              "sharePct": 9,
+              "comparedWithSevenDaysPct": -0.8,
+              "comparisonRaw": "-0.8%"
+            },
+            {
+              "name": "关注",
+              "sharePct": 7,
+              "comparedWithSevenDaysPct": 0.4,
+              "comparisonRaw": "+0.4%"
+            },
+            {
+              "name": "其他",
+              "sharePct": 5,
+              "comparedWithSevenDaysPct": -1.2,
+              "comparisonRaw": "-1.2%"
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": 1,
+                "time": "00:00",
+                "name": "问题与结果",
+                "clickRatePct": 42
+              },
+              {
+                "rank": 2,
+                "time": "00:18",
+                "name": "实际演示",
+                "clickRatePct": 35
+              },
+              {
+                "rank": 3,
+                "time": "00:42",
+                "name": "边界与下一步",
+                "clickRatePct": 23
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": 1,
+                "name": "个人工作台",
+                "sharePct": 38
+              },
+              {
+                "rank": 2,
+                "name": "本地知识库",
+                "sharePct": 34
+              },
+              {
+                "rank": 3,
+                "name": "AI 工作流",
+                "sharePct": 28
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": 1,
+                "name": "Markdown 工作台",
+                "sharePct": 41
+              },
+              {
+                "rank": 2,
+                "name": "知识库怎么搭",
+                "sharePct": 33
+              },
+              {
+                "rank": 3,
+                "name": "本地 Agent",
+                "sharePct": 26
+              }
+            ],
+            "geography": [
+              {
+                "name": "华东示例区",
+                "sharePct": 29
+              },
+              {
+                "name": "华南示例区",
+                "sharePct": 23
+              },
+              {
+                "name": "华北示例区",
+                "sharePct": 21
+              },
+              {
+                "name": "西南示例区",
+                "sharePct": 16
+              },
+              {
+                "name": "其他示例区",
+                "sharePct": 11
+              }
+            ],
+            "interests": [
+              {
+                "name": "软件工具",
+                "sharePct": 32
+              },
+              {
+                "name": "学习方法",
+                "sharePct": 26
+              },
+              {
+                "name": "职场效率",
+                "sharePct": 23
+              },
+              {
+                "name": "内容创作",
+                "sharePct": 19
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": "知识库",
+                "heat": 92,
+                "heatRaw": "92"
+              },
+              {
+                "name": "工作流",
+                "heat": 84,
+                "heatRaw": "84"
+              },
+              {
+                "name": "本地",
+                "heat": 76,
+                "heatRaw": "76"
+              },
+              {
+                "name": "自动化",
+                "heat": 68,
+                "heatRaw": "68"
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": 1,
+                "name": "怎么安装"
+              },
+              {
+                "rank": 2,
+                "name": "能否开源"
+              },
+              {
+                "rank": 3,
+                "name": "数据安全"
+              },
+              {
+                "rank": 4,
+                "name": "目录模板"
+              },
+              {
+                "rank": 5,
+                "name": "完整教程"
+              }
+            ],
+            "missingFields": []
+          }
+        },
+        "demo-work-002": {
+          "platformWorkId": "synthetic-002",
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourceKind": "synthetic-demo",
+          "sourcePaths": [
+            "30_self_media/douyin/synthetic/deep/synthetic-002/metrics.json",
+            "30_self_media/douyin/synthetic/deep/synthetic-002/audience.json"
+          ],
+          "metrics": {
+            "views": 9200,
+            "likes": 506,
+            "shares": 64,
+            "comments": 54,
+            "saves": 368,
+            "followerGain": 41,
+            "completionRatePct": 17.9,
+            "fiveSecondCompletionRatePct": 43.2,
+            "twoSecondBounceRatePct": 33.2,
+            "averageWatchSeconds": 24.94,
+            "averageWatchSharePct": 43,
+            "coverClickRatePct": 6.2,
+            "saveRatePct": 4,
+            "followerGainRatePct": 0.45,
+            "notInterested": 13
+          },
+          "hourlyViews": [
+            {
+              "date": "2025-11-22T02:00:00.000Z",
+              "value": 821,
+              "cumulative": 821
+            },
+            {
+              "date": "2025-11-22T03:00:00.000Z",
+              "value": 718,
+              "cumulative": 1539
+            },
+            {
+              "date": "2025-11-22T04:00:00.000Z",
+              "value": 720,
+              "cumulative": 2259
+            },
+            {
+              "date": "2025-11-22T05:00:00.000Z",
+              "value": 722,
+              "cumulative": 2981
+            },
+            {
+              "date": "2025-11-22T06:00:00.000Z",
+              "value": 618,
+              "cumulative": 3599
+            },
+            {
+              "date": "2025-11-22T07:00:00.000Z",
+              "value": 620,
+              "cumulative": 4219
+            },
+            {
+              "date": "2025-11-22T08:00:00.000Z",
+              "value": 623,
+              "cumulative": 4842
+            },
+            {
+              "date": "2025-11-22T09:00:00.000Z",
+              "value": 519,
+              "cumulative": 5361
+            },
+            {
+              "date": "2025-11-22T10:00:00.000Z",
+              "value": 521,
+              "cumulative": 5882
+            },
+            {
+              "date": "2025-11-22T11:00:00.000Z",
+              "value": 523,
+              "cumulative": 6405
+            },
+            {
+              "date": "2025-11-22T12:00:00.000Z",
+              "value": 420,
+              "cumulative": 6825
+            },
+            {
+              "date": "2025-11-22T13:00:00.000Z",
+              "value": 0,
+              "cumulative": 6825
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": "2025-11-22T02:00:00.000Z",
+              "value": 5,
+              "cumulative": 5
+            },
+            {
+              "date": "2025-11-22T03:00:00.000Z",
+              "value": 5,
+              "cumulative": 10
+            },
+            {
+              "date": "2025-11-22T04:00:00.000Z",
+              "value": 5,
+              "cumulative": 15
+            },
+            {
+              "date": "2025-11-22T05:00:00.000Z",
+              "value": 5,
+              "cumulative": 20
+            },
+            {
+              "date": "2025-11-22T06:00:00.000Z",
+              "value": 4,
+              "cumulative": 24
+            },
+            {
+              "date": "2025-11-22T07:00:00.000Z",
+              "value": 4,
+              "cumulative": 28
+            },
+            {
+              "date": "2025-11-22T08:00:00.000Z",
+              "value": 4,
+              "cumulative": 32
+            },
+            {
+              "date": "2025-11-22T09:00:00.000Z",
+              "value": 0,
+              "cumulative": 32
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": "2025-11-21",
+              "value": 6,
+              "douyin": 5,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2025-11-22",
+              "value": 12,
+              "douyin": 10,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2025-11-23",
+              "value": 18,
+              "douyin": 15,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2025-11-24",
+              "value": 23,
+              "douyin": 21,
+              "douyinFeatured": 3
+            },
+            {
+              "date": "2025-11-25",
+              "value": 29,
+              "douyin": 26,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2025-11-26",
+              "value": 35,
+              "douyin": 31,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2025-11-27",
+              "value": 41,
+              "douyin": 36,
+              "douyinFeatured": 5
+            }
+          ],
+          "progress": [
+            {
+              "time": "0s",
+              "skipRatePct": 0,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "2s",
+              "skipRatePct": 11.2,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "5s",
+              "skipRatePct": 22.4,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "10s",
+              "skipRatePct": 33.6,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "20s",
+              "skipRatePct": 44.8,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "30s",
+              "skipRatePct": 56,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "45s",
+              "skipRatePct": 67.2,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "58s",
+              "skipRatePct": 78.4,
+              "rewatchRatePct": 4.3
+            }
+          ],
+          "retention": [
+            {
+              "time": "0s",
+              "valuePct": 100,
+              "peerPct": 98
+            },
+            {
+              "time": "2s",
+              "valuePct": 89.5,
+              "peerPct": 88.8
+            },
+            {
+              "time": "5s",
+              "valuePct": 79,
+              "peerPct": 79.6
+            },
+            {
+              "time": "10s",
+              "valuePct": 68.5,
+              "peerPct": 70.4
+            },
+            {
+              "time": "20s",
+              "valuePct": 58,
+              "peerPct": 61.2
+            },
+            {
+              "time": "30s",
+              "valuePct": 47.5,
+              "peerPct": 52
+            },
+            {
+              "time": "45s",
+              "valuePct": 37,
+              "peerPct": 42.8
+            },
+            {
+              "time": "58s",
+              "valuePct": 26.5,
+              "peerPct": 33.6
+            }
+          ],
+          "bounce": [
+            {
+              "time": "0s",
+              "valuePct": 0,
+              "peerPct": 2
+            },
+            {
+              "time": "2s",
+              "valuePct": 11.2,
+              "peerPct": 11.7
+            },
+            {
+              "time": "5s",
+              "valuePct": 22.4,
+              "peerPct": 21.4
+            },
+            {
+              "time": "10s",
+              "valuePct": 33.6,
+              "peerPct": 31.1
+            },
+            {
+              "time": "20s",
+              "valuePct": 44.8,
+              "peerPct": 40.8
+            },
+            {
+              "time": "30s",
+              "valuePct": 56,
+              "peerPct": 50.5
+            },
+            {
+              "time": "45s",
+              "valuePct": 67.2,
+              "peerPct": 60.2
+            },
+            {
+              "time": "58s",
+              "valuePct": 78.4,
+              "peerPct": 69.9
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": "推荐页",
+              "sharePct": 63,
+              "comparedWithSevenDaysPct": 4.2,
+              "comparisonRaw": "+4.2%"
+            },
+            {
+              "name": "搜索",
+              "sharePct": 16,
+              "comparedWithSevenDaysPct": 2.1,
+              "comparisonRaw": "+2.1%"
+            },
+            {
+              "name": "主页",
+              "sharePct": 9,
+              "comparedWithSevenDaysPct": -0.8,
+              "comparisonRaw": "-0.8%"
+            },
+            {
+              "name": "关注",
+              "sharePct": 7,
+              "comparedWithSevenDaysPct": 0.4,
+              "comparisonRaw": "+0.4%"
+            },
+            {
+              "name": "其他",
+              "sharePct": 5,
+              "comparedWithSevenDaysPct": -1.2,
+              "comparisonRaw": "-1.2%"
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": 1,
+                "time": "00:00",
+                "name": "问题与结果",
+                "clickRatePct": 42
+              },
+              {
+                "rank": 2,
+                "time": "00:18",
+                "name": "实际演示",
+                "clickRatePct": 35
+              },
+              {
+                "rank": 3,
+                "time": "00:42",
+                "name": "边界与下一步",
+                "clickRatePct": 23
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": 1,
+                "name": "个人工作台",
+                "sharePct": 38
+              },
+              {
+                "rank": 2,
+                "name": "本地知识库",
+                "sharePct": 34
+              },
+              {
+                "rank": 3,
+                "name": "AI 工作流",
+                "sharePct": 28
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": 1,
+                "name": "Markdown 工作台",
+                "sharePct": 41
+              },
+              {
+                "rank": 2,
+                "name": "知识库怎么搭",
+                "sharePct": 33
+              },
+              {
+                "rank": 3,
+                "name": "本地 Agent",
+                "sharePct": 26
+              }
+            ],
+            "geography": [
+              {
+                "name": "华东示例区",
+                "sharePct": 29
+              },
+              {
+                "name": "华南示例区",
+                "sharePct": 23
+              },
+              {
+                "name": "华北示例区",
+                "sharePct": 21
+              },
+              {
+                "name": "西南示例区",
+                "sharePct": 16
+              },
+              {
+                "name": "其他示例区",
+                "sharePct": 11
+              }
+            ],
+            "interests": [
+              {
+                "name": "软件工具",
+                "sharePct": 32
+              },
+              {
+                "name": "学习方法",
+                "sharePct": 26
+              },
+              {
+                "name": "职场效率",
+                "sharePct": 23
+              },
+              {
+                "name": "内容创作",
+                "sharePct": 19
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": "知识库",
+                "heat": 92,
+                "heatRaw": "92"
+              },
+              {
+                "name": "工作流",
+                "heat": 84,
+                "heatRaw": "84"
+              },
+              {
+                "name": "本地",
+                "heat": 76,
+                "heatRaw": "76"
+              },
+              {
+                "name": "自动化",
+                "heat": 68,
+                "heatRaw": "68"
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": 1,
+                "name": "怎么安装"
+              },
+              {
+                "rank": 2,
+                "name": "能否开源"
+              },
+              {
+                "rank": 3,
+                "name": "数据安全"
+              },
+              {
+                "rank": 4,
+                "name": "目录模板"
+              },
+              {
+                "rank": 5,
+                "name": "完整教程"
+              }
+            ],
+            "missingFields": []
+          }
+        },
+        "demo-work-003": {
+          "platformWorkId": "synthetic-003",
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourceKind": "synthetic-demo",
+          "sourcePaths": [
+            "30_self_media/douyin/synthetic/deep/synthetic-003/metrics.json",
+            "30_self_media/douyin/synthetic/deep/synthetic-003/audience.json"
+          ],
+          "metrics": {
+            "views": 14800,
+            "likes": 696,
+            "shares": 133,
+            "comments": 98,
+            "saves": 474,
+            "followerGain": 52,
+            "completionRatePct": 19.6,
+            "fiveSecondCompletionRatePct": 45.3,
+            "twoSecondBounceRatePct": 31.8,
+            "averageWatchSeconds": 32.76,
+            "averageWatchSharePct": 45.5,
+            "coverClickRatePct": 6.9,
+            "saveRatePct": 3.2,
+            "followerGainRatePct": 0.35,
+            "notInterested": 21
+          },
+          "hourlyViews": [
+            {
+              "date": "2025-12-06T02:00:00.000Z",
+              "value": 1208,
+              "cumulative": 1208
+            },
+            {
+              "date": "2025-12-06T03:00:00.000Z",
+              "value": 1211,
+              "cumulative": 2419
+            },
+            {
+              "date": "2025-12-06T04:00:00.000Z",
+              "value": 1215,
+              "cumulative": 3634
+            },
+            {
+              "date": "2025-12-06T05:00:00.000Z",
+              "value": 1048,
+              "cumulative": 4682
+            },
+            {
+              "date": "2025-12-06T06:00:00.000Z",
+              "value": 1051,
+              "cumulative": 5733
+            },
+            {
+              "date": "2025-12-06T07:00:00.000Z",
+              "value": 1055,
+              "cumulative": 6788
+            },
+            {
+              "date": "2025-12-06T08:00:00.000Z",
+              "value": 888,
+              "cumulative": 7676
+            },
+            {
+              "date": "2025-12-06T09:00:00.000Z",
+              "value": 892,
+              "cumulative": 8568
+            },
+            {
+              "date": "2025-12-06T10:00:00.000Z",
+              "value": 895,
+              "cumulative": 9463
+            },
+            {
+              "date": "2025-12-06T11:00:00.000Z",
+              "value": 728,
+              "cumulative": 10191
+            },
+            {
+              "date": "2025-12-06T12:00:00.000Z",
+              "value": 732,
+              "cumulative": 10923
+            },
+            {
+              "date": "2025-12-06T13:00:00.000Z",
+              "value": 0,
+              "cumulative": 10923
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": "2025-12-06T02:00:00.000Z",
+              "value": 6,
+              "cumulative": 6
+            },
+            {
+              "date": "2025-12-06T03:00:00.000Z",
+              "value": 6,
+              "cumulative": 12
+            },
+            {
+              "date": "2025-12-06T04:00:00.000Z",
+              "value": 6,
+              "cumulative": 18
+            },
+            {
+              "date": "2025-12-06T05:00:00.000Z",
+              "value": 5,
+              "cumulative": 23
+            },
+            {
+              "date": "2025-12-06T06:00:00.000Z",
+              "value": 5,
+              "cumulative": 28
+            },
+            {
+              "date": "2025-12-06T07:00:00.000Z",
+              "value": 5,
+              "cumulative": 33
+            },
+            {
+              "date": "2025-12-06T08:00:00.000Z",
+              "value": 5,
+              "cumulative": 38
+            },
+            {
+              "date": "2025-12-06T09:00:00.000Z",
+              "value": 0,
+              "cumulative": 38
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": "2025-12-05",
+              "value": 7,
+              "douyin": 7,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2025-12-06",
+              "value": 15,
+              "douyin": 13,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2025-12-07",
+              "value": 22,
+              "douyin": 20,
+              "douyinFeatured": 3
+            },
+            {
+              "date": "2025-12-08",
+              "value": 30,
+              "douyin": 26,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2025-12-09",
+              "value": 37,
+              "douyin": 33,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2025-12-10",
+              "value": 45,
+              "douyin": 39,
+              "douyinFeatured": 5
+            },
+            {
+              "date": "2025-12-11",
+              "value": 52,
+              "douyin": 46,
+              "douyinFeatured": 6
+            }
+          ],
+          "progress": [
+            {
+              "time": "0s",
+              "skipRatePct": 0,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "2s",
+              "skipRatePct": 9.2,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "5s",
+              "skipRatePct": 18.4,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "10s",
+              "skipRatePct": 27.6,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "20s",
+              "skipRatePct": 36.8,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "30s",
+              "skipRatePct": 46,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "45s",
+              "skipRatePct": 55.2,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "60s",
+              "skipRatePct": 64.4,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "72s",
+              "skipRatePct": 73.6,
+              "rewatchRatePct": 6.9
+            }
+          ],
+          "retention": [
+            {
+              "time": "0s",
+              "valuePct": 100,
+              "peerPct": 98
+            },
+            {
+              "time": "2s",
+              "valuePct": 91.5,
+              "peerPct": 88.8
+            },
+            {
+              "time": "5s",
+              "valuePct": 83,
+              "peerPct": 79.6
+            },
+            {
+              "time": "10s",
+              "valuePct": 74.5,
+              "peerPct": 70.4
+            },
+            {
+              "time": "20s",
+              "valuePct": 66,
+              "peerPct": 61.2
+            },
+            {
+              "time": "30s",
+              "valuePct": 57.5,
+              "peerPct": 52
+            },
+            {
+              "time": "45s",
+              "valuePct": 49,
+              "peerPct": 42.8
+            },
+            {
+              "time": "60s",
+              "valuePct": 40.5,
+              "peerPct": 33.6
+            },
+            {
+              "time": "72s",
+              "valuePct": 32,
+              "peerPct": 24.4
+            }
+          ],
+          "bounce": [
+            {
+              "time": "0s",
+              "valuePct": 0,
+              "peerPct": 2
+            },
+            {
+              "time": "2s",
+              "valuePct": 9.2,
+              "peerPct": 11.7
+            },
+            {
+              "time": "5s",
+              "valuePct": 18.4,
+              "peerPct": 21.4
+            },
+            {
+              "time": "10s",
+              "valuePct": 27.6,
+              "peerPct": 31.1
+            },
+            {
+              "time": "20s",
+              "valuePct": 36.8,
+              "peerPct": 40.8
+            },
+            {
+              "time": "30s",
+              "valuePct": 46,
+              "peerPct": 50.5
+            },
+            {
+              "time": "45s",
+              "valuePct": 55.2,
+              "peerPct": 60.2
+            },
+            {
+              "time": "60s",
+              "valuePct": 64.4,
+              "peerPct": 69.9
+            },
+            {
+              "time": "72s",
+              "valuePct": 73.6,
+              "peerPct": 79.6
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": "推荐页",
+              "sharePct": 63,
+              "comparedWithSevenDaysPct": 4.2,
+              "comparisonRaw": "+4.2%"
+            },
+            {
+              "name": "搜索",
+              "sharePct": 16,
+              "comparedWithSevenDaysPct": 2.1,
+              "comparisonRaw": "+2.1%"
+            },
+            {
+              "name": "主页",
+              "sharePct": 9,
+              "comparedWithSevenDaysPct": -0.8,
+              "comparisonRaw": "-0.8%"
+            },
+            {
+              "name": "关注",
+              "sharePct": 7,
+              "comparedWithSevenDaysPct": 0.4,
+              "comparisonRaw": "+0.4%"
+            },
+            {
+              "name": "其他",
+              "sharePct": 5,
+              "comparedWithSevenDaysPct": -1.2,
+              "comparisonRaw": "-1.2%"
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": 1,
+                "time": "00:00",
+                "name": "问题与结果",
+                "clickRatePct": 42
+              },
+              {
+                "rank": 2,
+                "time": "00:18",
+                "name": "实际演示",
+                "clickRatePct": 35
+              },
+              {
+                "rank": 3,
+                "time": "00:42",
+                "name": "边界与下一步",
+                "clickRatePct": 23
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": 1,
+                "name": "个人工作台",
+                "sharePct": 38
+              },
+              {
+                "rank": 2,
+                "name": "本地知识库",
+                "sharePct": 34
+              },
+              {
+                "rank": 3,
+                "name": "AI 工作流",
+                "sharePct": 28
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": 1,
+                "name": "Markdown 工作台",
+                "sharePct": 41
+              },
+              {
+                "rank": 2,
+                "name": "知识库怎么搭",
+                "sharePct": 33
+              },
+              {
+                "rank": 3,
+                "name": "本地 Agent",
+                "sharePct": 26
+              }
+            ],
+            "geography": [
+              {
+                "name": "华东示例区",
+                "sharePct": 29
+              },
+              {
+                "name": "华南示例区",
+                "sharePct": 23
+              },
+              {
+                "name": "华北示例区",
+                "sharePct": 21
+              },
+              {
+                "name": "西南示例区",
+                "sharePct": 16
+              },
+              {
+                "name": "其他示例区",
+                "sharePct": 11
+              }
+            ],
+            "interests": [
+              {
+                "name": "软件工具",
+                "sharePct": 32
+              },
+              {
+                "name": "学习方法",
+                "sharePct": 26
+              },
+              {
+                "name": "职场效率",
+                "sharePct": 23
+              },
+              {
+                "name": "内容创作",
+                "sharePct": 19
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": "知识库",
+                "heat": 92,
+                "heatRaw": "92"
+              },
+              {
+                "name": "工作流",
+                "heat": 84,
+                "heatRaw": "84"
+              },
+              {
+                "name": "本地",
+                "heat": 76,
+                "heatRaw": "76"
+              },
+              {
+                "name": "自动化",
+                "heat": 68,
+                "heatRaw": "68"
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": 1,
+                "name": "怎么安装"
+              },
+              {
+                "rank": 2,
+                "name": "能否开源"
+              },
+              {
+                "rank": 3,
+                "name": "数据安全"
+              },
+              {
+                "rank": 4,
+                "name": "目录模板"
+              },
+              {
+                "rank": 5,
+                "name": "完整教程"
+              }
+            ],
+            "missingFields": []
+          }
+        },
+        "demo-work-004": {
+          "platformWorkId": "synthetic-004",
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourceKind": "synthetic-demo",
+          "sourcePaths": [
+            "30_self_media/douyin/synthetic/deep/synthetic-004/metrics.json",
+            "30_self_media/douyin/synthetic/deep/synthetic-004/audience.json"
+          ],
+          "metrics": {
+            "views": 11800,
+            "likes": 602,
+            "shares": 83,
+            "comments": 53,
+            "saves": 425,
+            "followerGain": 47,
+            "completionRatePct": 21.3,
+            "fiveSecondCompletionRatePct": 47.4,
+            "twoSecondBounceRatePct": 30.4,
+            "averageWatchSeconds": 25.08,
+            "averageWatchSharePct": 38,
+            "coverClickRatePct": 4.8,
+            "saveRatePct": 3.6,
+            "followerGainRatePct": 0.4,
+            "notInterested": 17
+          },
+          "hourlyViews": [
+            {
+              "date": "2025-12-20T02:00:00.000Z",
+              "value": 1008,
+              "cumulative": 1008
+            },
+            {
+              "date": "2025-12-20T03:00:00.000Z",
+              "value": 1011,
+              "cumulative": 2019
+            },
+            {
+              "date": "2025-12-20T04:00:00.000Z",
+              "value": 878,
+              "cumulative": 2897
+            },
+            {
+              "date": "2025-12-20T05:00:00.000Z",
+              "value": 881,
+              "cumulative": 3778
+            },
+            {
+              "date": "2025-12-20T06:00:00.000Z",
+              "value": 884,
+              "cumulative": 4662
+            },
+            {
+              "date": "2025-12-20T07:00:00.000Z",
+              "value": 750,
+              "cumulative": 5412
+            },
+            {
+              "date": "2025-12-20T08:00:00.000Z",
+              "value": 753,
+              "cumulative": 6165
+            },
+            {
+              "date": "2025-12-20T09:00:00.000Z",
+              "value": 756,
+              "cumulative": 6921
+            },
+            {
+              "date": "2025-12-20T10:00:00.000Z",
+              "value": 623,
+              "cumulative": 7544
+            },
+            {
+              "date": "2025-12-20T11:00:00.000Z",
+              "value": 626,
+              "cumulative": 8170
+            },
+            {
+              "date": "2025-12-20T12:00:00.000Z",
+              "value": 629,
+              "cumulative": 8799
+            },
+            {
+              "date": "2025-12-20T13:00:00.000Z",
+              "value": 0,
+              "cumulative": 8799
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": "2025-12-20T02:00:00.000Z",
+              "value": 6,
+              "cumulative": 6
+            },
+            {
+              "date": "2025-12-20T03:00:00.000Z",
+              "value": 6,
+              "cumulative": 12
+            },
+            {
+              "date": "2025-12-20T04:00:00.000Z",
+              "value": 5,
+              "cumulative": 17
+            },
+            {
+              "date": "2025-12-20T05:00:00.000Z",
+              "value": 5,
+              "cumulative": 22
+            },
+            {
+              "date": "2025-12-20T06:00:00.000Z",
+              "value": 5,
+              "cumulative": 27
+            },
+            {
+              "date": "2025-12-20T07:00:00.000Z",
+              "value": 4,
+              "cumulative": 31
+            },
+            {
+              "date": "2025-12-20T08:00:00.000Z",
+              "value": 4,
+              "cumulative": 35
+            },
+            {
+              "date": "2025-12-20T09:00:00.000Z",
+              "value": 0,
+              "cumulative": 35
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": "2025-12-19",
+              "value": 7,
+              "douyin": 6,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2025-12-20",
+              "value": 13,
+              "douyin": 12,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2025-12-21",
+              "value": 20,
+              "douyin": 18,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2025-12-22",
+              "value": 27,
+              "douyin": 24,
+              "douyinFeatured": 3
+            },
+            {
+              "date": "2025-12-23",
+              "value": 34,
+              "douyin": 30,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2025-12-24",
+              "value": 40,
+              "douyin": 35,
+              "douyinFeatured": 5
+            },
+            {
+              "date": "2025-12-25",
+              "value": 47,
+              "douyin": 41,
+              "douyinFeatured": 6
+            }
+          ],
+          "progress": [
+            {
+              "time": "0s",
+              "skipRatePct": 0,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "2s",
+              "skipRatePct": 10.2,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "5s",
+              "skipRatePct": 20.4,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "10s",
+              "skipRatePct": 30.6,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "20s",
+              "skipRatePct": 40.8,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "30s",
+              "skipRatePct": 51,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "45s",
+              "skipRatePct": 61.2,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "60s",
+              "skipRatePct": 71.4,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "66s",
+              "skipRatePct": 81.6,
+              "rewatchRatePct": 3
+            }
+          ],
+          "retention": [
+            {
+              "time": "0s",
+              "valuePct": 100,
+              "peerPct": 98
+            },
+            {
+              "time": "2s",
+              "valuePct": 90.5,
+              "peerPct": 88.8
+            },
+            {
+              "time": "5s",
+              "valuePct": 81,
+              "peerPct": 79.6
+            },
+            {
+              "time": "10s",
+              "valuePct": 71.5,
+              "peerPct": 70.4
+            },
+            {
+              "time": "20s",
+              "valuePct": 62,
+              "peerPct": 61.2
+            },
+            {
+              "time": "30s",
+              "valuePct": 52.5,
+              "peerPct": 52
+            },
+            {
+              "time": "45s",
+              "valuePct": 43,
+              "peerPct": 42.8
+            },
+            {
+              "time": "60s",
+              "valuePct": 33.5,
+              "peerPct": 33.6
+            },
+            {
+              "time": "66s",
+              "valuePct": 24,
+              "peerPct": 24.4
+            }
+          ],
+          "bounce": [
+            {
+              "time": "0s",
+              "valuePct": 0,
+              "peerPct": 2
+            },
+            {
+              "time": "2s",
+              "valuePct": 10.2,
+              "peerPct": 11.7
+            },
+            {
+              "time": "5s",
+              "valuePct": 20.4,
+              "peerPct": 21.4
+            },
+            {
+              "time": "10s",
+              "valuePct": 30.6,
+              "peerPct": 31.1
+            },
+            {
+              "time": "20s",
+              "valuePct": 40.8,
+              "peerPct": 40.8
+            },
+            {
+              "time": "30s",
+              "valuePct": 51,
+              "peerPct": 50.5
+            },
+            {
+              "time": "45s",
+              "valuePct": 61.2,
+              "peerPct": 60.2
+            },
+            {
+              "time": "60s",
+              "valuePct": 71.4,
+              "peerPct": 69.9
+            },
+            {
+              "time": "66s",
+              "valuePct": 81.6,
+              "peerPct": 79.6
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": "推荐页",
+              "sharePct": 63,
+              "comparedWithSevenDaysPct": 4.2,
+              "comparisonRaw": "+4.2%"
+            },
+            {
+              "name": "搜索",
+              "sharePct": 16,
+              "comparedWithSevenDaysPct": 2.1,
+              "comparisonRaw": "+2.1%"
+            },
+            {
+              "name": "主页",
+              "sharePct": 9,
+              "comparedWithSevenDaysPct": -0.8,
+              "comparisonRaw": "-0.8%"
+            },
+            {
+              "name": "关注",
+              "sharePct": 7,
+              "comparedWithSevenDaysPct": 0.4,
+              "comparisonRaw": "+0.4%"
+            },
+            {
+              "name": "其他",
+              "sharePct": 5,
+              "comparedWithSevenDaysPct": -1.2,
+              "comparisonRaw": "-1.2%"
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": 1,
+                "time": "00:00",
+                "name": "问题与结果",
+                "clickRatePct": 42
+              },
+              {
+                "rank": 2,
+                "time": "00:18",
+                "name": "实际演示",
+                "clickRatePct": 35
+              },
+              {
+                "rank": 3,
+                "time": "00:42",
+                "name": "边界与下一步",
+                "clickRatePct": 23
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": 1,
+                "name": "个人工作台",
+                "sharePct": 38
+              },
+              {
+                "rank": 2,
+                "name": "本地知识库",
+                "sharePct": 34
+              },
+              {
+                "rank": 3,
+                "name": "AI 工作流",
+                "sharePct": 28
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": 1,
+                "name": "Markdown 工作台",
+                "sharePct": 41
+              },
+              {
+                "rank": 2,
+                "name": "知识库怎么搭",
+                "sharePct": 33
+              },
+              {
+                "rank": 3,
+                "name": "本地 Agent",
+                "sharePct": 26
+              }
+            ],
+            "geography": [
+              {
+                "name": "华东示例区",
+                "sharePct": 29
+              },
+              {
+                "name": "华南示例区",
+                "sharePct": 23
+              },
+              {
+                "name": "华北示例区",
+                "sharePct": 21
+              },
+              {
+                "name": "西南示例区",
+                "sharePct": 16
+              },
+              {
+                "name": "其他示例区",
+                "sharePct": 11
+              }
+            ],
+            "interests": [
+              {
+                "name": "软件工具",
+                "sharePct": 32
+              },
+              {
+                "name": "学习方法",
+                "sharePct": 26
+              },
+              {
+                "name": "职场效率",
+                "sharePct": 23
+              },
+              {
+                "name": "内容创作",
+                "sharePct": 19
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": "知识库",
+                "heat": 92,
+                "heatRaw": "92"
+              },
+              {
+                "name": "工作流",
+                "heat": 84,
+                "heatRaw": "84"
+              },
+              {
+                "name": "本地",
+                "heat": 76,
+                "heatRaw": "76"
+              },
+              {
+                "name": "自动化",
+                "heat": 68,
+                "heatRaw": "68"
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": 1,
+                "name": "怎么安装"
+              },
+              {
+                "rank": 2,
+                "name": "能否开源"
+              },
+              {
+                "rank": 3,
+                "name": "数据安全"
+              },
+              {
+                "rank": 4,
+                "name": "目录模板"
+              },
+              {
+                "rank": 5,
+                "name": "完整教程"
+              }
+            ],
+            "missingFields": []
+          }
+        },
+        "demo-work-005": {
+          "platformWorkId": "synthetic-005",
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourceKind": "synthetic-demo",
+          "sourcePaths": [
+            "30_self_media/douyin/synthetic/deep/synthetic-005/metrics.json",
+            "30_self_media/douyin/synthetic/deep/synthetic-005/audience.json"
+          ],
+          "metrics": {
+            "views": 18000,
+            "likes": 990,
+            "shares": 162,
+            "comments": 94,
+            "saves": 720,
+            "followerGain": 81,
+            "completionRatePct": 14.5,
+            "fiveSecondCompletionRatePct": 39,
+            "twoSecondBounceRatePct": 36,
+            "averageWatchSeconds": 31.59,
+            "averageWatchSharePct": 40.5,
+            "coverClickRatePct": 5.5,
+            "saveRatePct": 4,
+            "followerGainRatePct": 0.45,
+            "notInterested": 25
+          },
+          "hourlyViews": [
+            {
+              "date": "2026-01-03T02:00:00.000Z",
+              "value": 1607,
+              "cumulative": 1607
+            },
+            {
+              "date": "2026-01-03T03:00:00.000Z",
+              "value": 1404,
+              "cumulative": 3011
+            },
+            {
+              "date": "2026-01-03T04:00:00.000Z",
+              "value": 1408,
+              "cumulative": 4419
+            },
+            {
+              "date": "2026-01-03T05:00:00.000Z",
+              "value": 1413,
+              "cumulative": 5832
+            },
+            {
+              "date": "2026-01-03T06:00:00.000Z",
+              "value": 1210,
+              "cumulative": 7042
+            },
+            {
+              "date": "2026-01-03T07:00:00.000Z",
+              "value": 1214,
+              "cumulative": 8256
+            },
+            {
+              "date": "2026-01-03T08:00:00.000Z",
+              "value": 1218,
+              "cumulative": 9474
+            },
+            {
+              "date": "2026-01-03T09:00:00.000Z",
+              "value": 1015,
+              "cumulative": 10489
+            },
+            {
+              "date": "2026-01-03T10:00:00.000Z",
+              "value": 1020,
+              "cumulative": 11509
+            },
+            {
+              "date": "2026-01-03T11:00:00.000Z",
+              "value": 1024,
+              "cumulative": 12533
+            },
+            {
+              "date": "2026-01-03T12:00:00.000Z",
+              "value": 821,
+              "cumulative": 13354
+            },
+            {
+              "date": "2026-01-03T13:00:00.000Z",
+              "value": 0,
+              "cumulative": 13354
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": "2026-01-03T02:00:00.000Z",
+              "value": 11,
+              "cumulative": 11
+            },
+            {
+              "date": "2026-01-03T03:00:00.000Z",
+              "value": 9,
+              "cumulative": 20
+            },
+            {
+              "date": "2026-01-03T04:00:00.000Z",
+              "value": 9,
+              "cumulative": 29
+            },
+            {
+              "date": "2026-01-03T05:00:00.000Z",
+              "value": 9,
+              "cumulative": 38
+            },
+            {
+              "date": "2026-01-03T06:00:00.000Z",
+              "value": 8,
+              "cumulative": 46
+            },
+            {
+              "date": "2026-01-03T07:00:00.000Z",
+              "value": 8,
+              "cumulative": 54
+            },
+            {
+              "date": "2026-01-03T08:00:00.000Z",
+              "value": 8,
+              "cumulative": 62
+            },
+            {
+              "date": "2026-01-03T09:00:00.000Z",
+              "value": 0,
+              "cumulative": 62
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": "2026-01-02",
+              "value": 12,
+              "douyin": 10,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2026-01-03",
+              "value": 23,
+              "douyin": 20,
+              "douyinFeatured": 3
+            },
+            {
+              "date": "2026-01-04",
+              "value": 35,
+              "douyin": 31,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2026-01-05",
+              "value": 46,
+              "douyin": 41,
+              "douyinFeatured": 6
+            },
+            {
+              "date": "2026-01-06",
+              "value": 58,
+              "douyin": 51,
+              "douyinFeatured": 7
+            },
+            {
+              "date": "2026-01-07",
+              "value": 69,
+              "douyin": 61,
+              "douyinFeatured": 8
+            },
+            {
+              "date": "2026-01-08",
+              "value": 81,
+              "douyin": 71,
+              "douyinFeatured": 10
+            }
+          ],
+          "progress": [
+            {
+              "time": "0s",
+              "skipRatePct": 0,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "2s",
+              "skipRatePct": 11.2,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "5s",
+              "skipRatePct": 22.4,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "10s",
+              "skipRatePct": 33.6,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "20s",
+              "skipRatePct": 44.8,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "30s",
+              "skipRatePct": 56,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "45s",
+              "skipRatePct": 67.2,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "60s",
+              "skipRatePct": 78.4,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "78s",
+              "skipRatePct": 89.6,
+              "rewatchRatePct": 4.3
+            }
+          ],
+          "retention": [
+            {
+              "time": "0s",
+              "valuePct": 100,
+              "peerPct": 98
+            },
+            {
+              "time": "2s",
+              "valuePct": 89.5,
+              "peerPct": 88.8
+            },
+            {
+              "time": "5s",
+              "valuePct": 79,
+              "peerPct": 79.6
+            },
+            {
+              "time": "10s",
+              "valuePct": 68.5,
+              "peerPct": 70.4
+            },
+            {
+              "time": "20s",
+              "valuePct": 58,
+              "peerPct": 61.2
+            },
+            {
+              "time": "30s",
+              "valuePct": 47.5,
+              "peerPct": 52
+            },
+            {
+              "time": "45s",
+              "valuePct": 37,
+              "peerPct": 42.8
+            },
+            {
+              "time": "60s",
+              "valuePct": 26.5,
+              "peerPct": 33.6
+            },
+            {
+              "time": "78s",
+              "valuePct": 16,
+              "peerPct": 24.4
+            }
+          ],
+          "bounce": [
+            {
+              "time": "0s",
+              "valuePct": 0,
+              "peerPct": 2
+            },
+            {
+              "time": "2s",
+              "valuePct": 11.2,
+              "peerPct": 11.7
+            },
+            {
+              "time": "5s",
+              "valuePct": 22.4,
+              "peerPct": 21.4
+            },
+            {
+              "time": "10s",
+              "valuePct": 33.6,
+              "peerPct": 31.1
+            },
+            {
+              "time": "20s",
+              "valuePct": 44.8,
+              "peerPct": 40.8
+            },
+            {
+              "time": "30s",
+              "valuePct": 56,
+              "peerPct": 50.5
+            },
+            {
+              "time": "45s",
+              "valuePct": 67.2,
+              "peerPct": 60.2
+            },
+            {
+              "time": "60s",
+              "valuePct": 78.4,
+              "peerPct": 69.9
+            },
+            {
+              "time": "78s",
+              "valuePct": 89.6,
+              "peerPct": 79.6
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": "推荐页",
+              "sharePct": 63,
+              "comparedWithSevenDaysPct": 4.2,
+              "comparisonRaw": "+4.2%"
+            },
+            {
+              "name": "搜索",
+              "sharePct": 16,
+              "comparedWithSevenDaysPct": 2.1,
+              "comparisonRaw": "+2.1%"
+            },
+            {
+              "name": "主页",
+              "sharePct": 9,
+              "comparedWithSevenDaysPct": -0.8,
+              "comparisonRaw": "-0.8%"
+            },
+            {
+              "name": "关注",
+              "sharePct": 7,
+              "comparedWithSevenDaysPct": 0.4,
+              "comparisonRaw": "+0.4%"
+            },
+            {
+              "name": "其他",
+              "sharePct": 5,
+              "comparedWithSevenDaysPct": -1.2,
+              "comparisonRaw": "-1.2%"
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": 1,
+                "time": "00:00",
+                "name": "问题与结果",
+                "clickRatePct": 42
+              },
+              {
+                "rank": 2,
+                "time": "00:18",
+                "name": "实际演示",
+                "clickRatePct": 35
+              },
+              {
+                "rank": 3,
+                "time": "00:42",
+                "name": "边界与下一步",
+                "clickRatePct": 23
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": 1,
+                "name": "个人工作台",
+                "sharePct": 38
+              },
+              {
+                "rank": 2,
+                "name": "本地知识库",
+                "sharePct": 34
+              },
+              {
+                "rank": 3,
+                "name": "AI 工作流",
+                "sharePct": 28
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": 1,
+                "name": "Markdown 工作台",
+                "sharePct": 41
+              },
+              {
+                "rank": 2,
+                "name": "知识库怎么搭",
+                "sharePct": 33
+              },
+              {
+                "rank": 3,
+                "name": "本地 Agent",
+                "sharePct": 26
+              }
+            ],
+            "geography": [
+              {
+                "name": "华东示例区",
+                "sharePct": 29
+              },
+              {
+                "name": "华南示例区",
+                "sharePct": 23
+              },
+              {
+                "name": "华北示例区",
+                "sharePct": 21
+              },
+              {
+                "name": "西南示例区",
+                "sharePct": 16
+              },
+              {
+                "name": "其他示例区",
+                "sharePct": 11
+              }
+            ],
+            "interests": [
+              {
+                "name": "软件工具",
+                "sharePct": 32
+              },
+              {
+                "name": "学习方法",
+                "sharePct": 26
+              },
+              {
+                "name": "职场效率",
+                "sharePct": 23
+              },
+              {
+                "name": "内容创作",
+                "sharePct": 19
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": "知识库",
+                "heat": 92,
+                "heatRaw": "92"
+              },
+              {
+                "name": "工作流",
+                "heat": 84,
+                "heatRaw": "84"
+              },
+              {
+                "name": "本地",
+                "heat": 76,
+                "heatRaw": "76"
+              },
+              {
+                "name": "自动化",
+                "heat": 68,
+                "heatRaw": "68"
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": 1,
+                "name": "怎么安装"
+              },
+              {
+                "rank": 2,
+                "name": "能否开源"
+              },
+              {
+                "rank": 3,
+                "name": "数据安全"
+              },
+              {
+                "rank": 4,
+                "name": "目录模板"
+              },
+              {
+                "rank": 5,
+                "name": "完整教程"
+              }
+            ],
+            "missingFields": []
+          }
+        },
+        "demo-work-006": {
+          "platformWorkId": "synthetic-006",
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourceKind": "synthetic-demo",
+          "sourcePaths": [
+            "30_self_media/douyin/synthetic/deep/synthetic-006/metrics.json",
+            "30_self_media/douyin/synthetic/deep/synthetic-006/audience.json"
+          ],
+          "metrics": {
+            "views": 12600,
+            "likes": 592,
+            "shares": 88,
+            "comments": 74,
+            "saves": 403,
+            "followerGain": 44,
+            "completionRatePct": 16.2,
+            "fiveSecondCompletionRatePct": 41.1,
+            "twoSecondBounceRatePct": 34.6,
+            "averageWatchSeconds": 19.78,
+            "averageWatchSharePct": 43,
+            "coverClickRatePct": 6.2,
+            "saveRatePct": 3.2,
+            "followerGainRatePct": 0.35,
+            "notInterested": 18
+          },
+          "hourlyViews": [
+            {
+              "date": "2026-01-10T02:00:00.000Z",
+              "value": 1028,
+              "cumulative": 1028
+            },
+            {
+              "date": "2026-01-10T03:00:00.000Z",
+              "value": 1031,
+              "cumulative": 2059
+            },
+            {
+              "date": "2026-01-10T04:00:00.000Z",
+              "value": 1034,
+              "cumulative": 3093
+            },
+            {
+              "date": "2026-01-10T05:00:00.000Z",
+              "value": 892,
+              "cumulative": 3985
+            },
+            {
+              "date": "2026-01-10T06:00:00.000Z",
+              "value": 895,
+              "cumulative": 4880
+            },
+            {
+              "date": "2026-01-10T07:00:00.000Z",
+              "value": 898,
+              "cumulative": 5778
+            },
+            {
+              "date": "2026-01-10T08:00:00.000Z",
+              "value": 756,
+              "cumulative": 6534
+            },
+            {
+              "date": "2026-01-10T09:00:00.000Z",
+              "value": 759,
+              "cumulative": 7293
+            },
+            {
+              "date": "2026-01-10T10:00:00.000Z",
+              "value": 762,
+              "cumulative": 8055
+            },
+            {
+              "date": "2026-01-10T11:00:00.000Z",
+              "value": 620,
+              "cumulative": 8675
+            },
+            {
+              "date": "2026-01-10T12:00:00.000Z",
+              "value": 623,
+              "cumulative": 9298
+            },
+            {
+              "date": "2026-01-10T13:00:00.000Z",
+              "value": 0,
+              "cumulative": 9298
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": "2026-01-10T02:00:00.000Z",
+              "value": 5,
+              "cumulative": 5
+            },
+            {
+              "date": "2026-01-10T03:00:00.000Z",
+              "value": 5,
+              "cumulative": 10
+            },
+            {
+              "date": "2026-01-10T04:00:00.000Z",
+              "value": 5,
+              "cumulative": 15
+            },
+            {
+              "date": "2026-01-10T05:00:00.000Z",
+              "value": 5,
+              "cumulative": 20
+            },
+            {
+              "date": "2026-01-10T06:00:00.000Z",
+              "value": 5,
+              "cumulative": 25
+            },
+            {
+              "date": "2026-01-10T07:00:00.000Z",
+              "value": 5,
+              "cumulative": 30
+            },
+            {
+              "date": "2026-01-10T08:00:00.000Z",
+              "value": 4,
+              "cumulative": 34
+            },
+            {
+              "date": "2026-01-10T09:00:00.000Z",
+              "value": 0,
+              "cumulative": 34
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": "2026-01-09",
+              "value": 6,
+              "douyin": 6,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2026-01-10",
+              "value": 13,
+              "douyin": 11,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2026-01-11",
+              "value": 19,
+              "douyin": 17,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2026-01-12",
+              "value": 25,
+              "douyin": 22,
+              "douyinFeatured": 3
+            },
+            {
+              "date": "2026-01-13",
+              "value": 31,
+              "douyin": 28,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2026-01-14",
+              "value": 38,
+              "douyin": 33,
+              "douyinFeatured": 5
+            },
+            {
+              "date": "2026-01-15",
+              "value": 44,
+              "douyin": 39,
+              "douyinFeatured": 5
+            }
+          ],
+          "progress": [
+            {
+              "time": "0s",
+              "skipRatePct": 0,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "2s",
+              "skipRatePct": 9.2,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "5s",
+              "skipRatePct": 18.4,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "10s",
+              "skipRatePct": 27.6,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "20s",
+              "skipRatePct": 36.8,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "30s",
+              "skipRatePct": 46,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "45s",
+              "skipRatePct": 55.2,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "46s",
+              "skipRatePct": 64.4,
+              "rewatchRatePct": 4.3
+            }
+          ],
+          "retention": [
+            {
+              "time": "0s",
+              "valuePct": 100,
+              "peerPct": 98
+            },
+            {
+              "time": "2s",
+              "valuePct": 91.5,
+              "peerPct": 88.8
+            },
+            {
+              "time": "5s",
+              "valuePct": 83,
+              "peerPct": 79.6
+            },
+            {
+              "time": "10s",
+              "valuePct": 74.5,
+              "peerPct": 70.4
+            },
+            {
+              "time": "20s",
+              "valuePct": 66,
+              "peerPct": 61.2
+            },
+            {
+              "time": "30s",
+              "valuePct": 57.5,
+              "peerPct": 52
+            },
+            {
+              "time": "45s",
+              "valuePct": 49,
+              "peerPct": 42.8
+            },
+            {
+              "time": "46s",
+              "valuePct": 40.5,
+              "peerPct": 33.6
+            }
+          ],
+          "bounce": [
+            {
+              "time": "0s",
+              "valuePct": 0,
+              "peerPct": 2
+            },
+            {
+              "time": "2s",
+              "valuePct": 9.2,
+              "peerPct": 11.7
+            },
+            {
+              "time": "5s",
+              "valuePct": 18.4,
+              "peerPct": 21.4
+            },
+            {
+              "time": "10s",
+              "valuePct": 27.6,
+              "peerPct": 31.1
+            },
+            {
+              "time": "20s",
+              "valuePct": 36.8,
+              "peerPct": 40.8
+            },
+            {
+              "time": "30s",
+              "valuePct": 46,
+              "peerPct": 50.5
+            },
+            {
+              "time": "45s",
+              "valuePct": 55.2,
+              "peerPct": 60.2
+            },
+            {
+              "time": "46s",
+              "valuePct": 64.4,
+              "peerPct": 69.9
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": "推荐页",
+              "sharePct": 63,
+              "comparedWithSevenDaysPct": 4.2,
+              "comparisonRaw": "+4.2%"
+            },
+            {
+              "name": "搜索",
+              "sharePct": 16,
+              "comparedWithSevenDaysPct": 2.1,
+              "comparisonRaw": "+2.1%"
+            },
+            {
+              "name": "主页",
+              "sharePct": 9,
+              "comparedWithSevenDaysPct": -0.8,
+              "comparisonRaw": "-0.8%"
+            },
+            {
+              "name": "关注",
+              "sharePct": 7,
+              "comparedWithSevenDaysPct": 0.4,
+              "comparisonRaw": "+0.4%"
+            },
+            {
+              "name": "其他",
+              "sharePct": 5,
+              "comparedWithSevenDaysPct": -1.2,
+              "comparisonRaw": "-1.2%"
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": 1,
+                "time": "00:00",
+                "name": "问题与结果",
+                "clickRatePct": 42
+              },
+              {
+                "rank": 2,
+                "time": "00:18",
+                "name": "实际演示",
+                "clickRatePct": 35
+              },
+              {
+                "rank": 3,
+                "time": "00:42",
+                "name": "边界与下一步",
+                "clickRatePct": 23
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": 1,
+                "name": "个人工作台",
+                "sharePct": 38
+              },
+              {
+                "rank": 2,
+                "name": "本地知识库",
+                "sharePct": 34
+              },
+              {
+                "rank": 3,
+                "name": "AI 工作流",
+                "sharePct": 28
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": 1,
+                "name": "Markdown 工作台",
+                "sharePct": 41
+              },
+              {
+                "rank": 2,
+                "name": "知识库怎么搭",
+                "sharePct": 33
+              },
+              {
+                "rank": 3,
+                "name": "本地 Agent",
+                "sharePct": 26
+              }
+            ],
+            "geography": [
+              {
+                "name": "华东示例区",
+                "sharePct": 29
+              },
+              {
+                "name": "华南示例区",
+                "sharePct": 23
+              },
+              {
+                "name": "华北示例区",
+                "sharePct": 21
+              },
+              {
+                "name": "西南示例区",
+                "sharePct": 16
+              },
+              {
+                "name": "其他示例区",
+                "sharePct": 11
+              }
+            ],
+            "interests": [
+              {
+                "name": "软件工具",
+                "sharePct": 32
+              },
+              {
+                "name": "学习方法",
+                "sharePct": 26
+              },
+              {
+                "name": "职场效率",
+                "sharePct": 23
+              },
+              {
+                "name": "内容创作",
+                "sharePct": 19
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": "知识库",
+                "heat": 92,
+                "heatRaw": "92"
+              },
+              {
+                "name": "工作流",
+                "heat": 84,
+                "heatRaw": "84"
+              },
+              {
+                "name": "本地",
+                "heat": 76,
+                "heatRaw": "76"
+              },
+              {
+                "name": "自动化",
+                "heat": 68,
+                "heatRaw": "68"
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": 1,
+                "name": "怎么安装"
+              },
+              {
+                "rank": 2,
+                "name": "能否开源"
+              },
+              {
+                "rank": 3,
+                "name": "数据安全"
+              },
+              {
+                "rank": 4,
+                "name": "目录模板"
+              },
+              {
+                "rank": 5,
+                "name": "完整教程"
+              }
+            ],
+            "missingFields": []
+          }
+        },
+        "demo-work-007": {
+          "platformWorkId": "synthetic-007",
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourceKind": "synthetic-demo",
+          "sourcePaths": [
+            "30_self_media/douyin/synthetic/deep/synthetic-007/metrics.json",
+            "30_self_media/douyin/synthetic/deep/synthetic-007/audience.json"
+          ],
+          "metrics": {
+            "views": 9800,
+            "likes": 500,
+            "shares": 88,
+            "comments": 65,
+            "saves": 353,
+            "followerGain": 39,
+            "completionRatePct": 17.9,
+            "fiveSecondCompletionRatePct": 43.2,
+            "twoSecondBounceRatePct": 33.2,
+            "averageWatchSeconds": 29.12,
+            "averageWatchSharePct": 45.5,
+            "coverClickRatePct": 6.9,
+            "saveRatePct": 3.6,
+            "followerGainRatePct": 0.4,
+            "notInterested": 14
+          },
+          "hourlyViews": [
+            {
+              "date": "2026-01-17T02:00:00.000Z",
+              "value": 837,
+              "cumulative": 837
+            },
+            {
+              "date": "2026-01-17T03:00:00.000Z",
+              "value": 840,
+              "cumulative": 1677
+            },
+            {
+              "date": "2026-01-17T04:00:00.000Z",
+              "value": 729,
+              "cumulative": 2406
+            },
+            {
+              "date": "2026-01-17T05:00:00.000Z",
+              "value": 731,
+              "cumulative": 3137
+            },
+            {
+              "date": "2026-01-17T06:00:00.000Z",
+              "value": 734,
+              "cumulative": 3871
+            },
+            {
+              "date": "2026-01-17T07:00:00.000Z",
+              "value": 623,
+              "cumulative": 4494
+            },
+            {
+              "date": "2026-01-17T08:00:00.000Z",
+              "value": 626,
+              "cumulative": 5120
+            },
+            {
+              "date": "2026-01-17T09:00:00.000Z",
+              "value": 628,
+              "cumulative": 5748
+            },
+            {
+              "date": "2026-01-17T10:00:00.000Z",
+              "value": 517,
+              "cumulative": 6265
+            },
+            {
+              "date": "2026-01-17T11:00:00.000Z",
+              "value": 520,
+              "cumulative": 6785
+            },
+            {
+              "date": "2026-01-17T12:00:00.000Z",
+              "value": 522,
+              "cumulative": 7307
+            },
+            {
+              "date": "2026-01-17T13:00:00.000Z",
+              "value": 0,
+              "cumulative": 7307
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": "2026-01-17T02:00:00.000Z",
+              "value": 5,
+              "cumulative": 5
+            },
+            {
+              "date": "2026-01-17T03:00:00.000Z",
+              "value": 5,
+              "cumulative": 10
+            },
+            {
+              "date": "2026-01-17T04:00:00.000Z",
+              "value": 4,
+              "cumulative": 14
+            },
+            {
+              "date": "2026-01-17T05:00:00.000Z",
+              "value": 4,
+              "cumulative": 18
+            },
+            {
+              "date": "2026-01-17T06:00:00.000Z",
+              "value": 4,
+              "cumulative": 22
+            },
+            {
+              "date": "2026-01-17T07:00:00.000Z",
+              "value": 4,
+              "cumulative": 26
+            },
+            {
+              "date": "2026-01-17T08:00:00.000Z",
+              "value": 4,
+              "cumulative": 30
+            },
+            {
+              "date": "2026-01-17T09:00:00.000Z",
+              "value": 0,
+              "cumulative": 30
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": "2026-01-16",
+              "value": 6,
+              "douyin": 5,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2026-01-17",
+              "value": 11,
+              "douyin": 10,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2026-01-18",
+              "value": 17,
+              "douyin": 15,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2026-01-19",
+              "value": 22,
+              "douyin": 20,
+              "douyinFeatured": 3
+            },
+            {
+              "date": "2026-01-20",
+              "value": 28,
+              "douyin": 25,
+              "douyinFeatured": 3
+            },
+            {
+              "date": "2026-01-21",
+              "value": 33,
+              "douyin": 29,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2026-01-22",
+              "value": 39,
+              "douyin": 34,
+              "douyinFeatured": 5
+            }
+          ],
+          "progress": [
+            {
+              "time": "0s",
+              "skipRatePct": 0,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "2s",
+              "skipRatePct": 10.2,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "5s",
+              "skipRatePct": 20.4,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "10s",
+              "skipRatePct": 30.6,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "20s",
+              "skipRatePct": 40.8,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "30s",
+              "skipRatePct": 51,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "45s",
+              "skipRatePct": 61.2,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "60s",
+              "skipRatePct": 71.4,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "64s",
+              "skipRatePct": 81.6,
+              "rewatchRatePct": 6.9
+            }
+          ],
+          "retention": [
+            {
+              "time": "0s",
+              "valuePct": 100,
+              "peerPct": 98
+            },
+            {
+              "time": "2s",
+              "valuePct": 90.5,
+              "peerPct": 88.8
+            },
+            {
+              "time": "5s",
+              "valuePct": 81,
+              "peerPct": 79.6
+            },
+            {
+              "time": "10s",
+              "valuePct": 71.5,
+              "peerPct": 70.4
+            },
+            {
+              "time": "20s",
+              "valuePct": 62,
+              "peerPct": 61.2
+            },
+            {
+              "time": "30s",
+              "valuePct": 52.5,
+              "peerPct": 52
+            },
+            {
+              "time": "45s",
+              "valuePct": 43,
+              "peerPct": 42.8
+            },
+            {
+              "time": "60s",
+              "valuePct": 33.5,
+              "peerPct": 33.6
+            },
+            {
+              "time": "64s",
+              "valuePct": 24,
+              "peerPct": 24.4
+            }
+          ],
+          "bounce": [
+            {
+              "time": "0s",
+              "valuePct": 0,
+              "peerPct": 2
+            },
+            {
+              "time": "2s",
+              "valuePct": 10.2,
+              "peerPct": 11.7
+            },
+            {
+              "time": "5s",
+              "valuePct": 20.4,
+              "peerPct": 21.4
+            },
+            {
+              "time": "10s",
+              "valuePct": 30.6,
+              "peerPct": 31.1
+            },
+            {
+              "time": "20s",
+              "valuePct": 40.8,
+              "peerPct": 40.8
+            },
+            {
+              "time": "30s",
+              "valuePct": 51,
+              "peerPct": 50.5
+            },
+            {
+              "time": "45s",
+              "valuePct": 61.2,
+              "peerPct": 60.2
+            },
+            {
+              "time": "60s",
+              "valuePct": 71.4,
+              "peerPct": 69.9
+            },
+            {
+              "time": "64s",
+              "valuePct": 81.6,
+              "peerPct": 79.6
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": "推荐页",
+              "sharePct": 63,
+              "comparedWithSevenDaysPct": 4.2,
+              "comparisonRaw": "+4.2%"
+            },
+            {
+              "name": "搜索",
+              "sharePct": 16,
+              "comparedWithSevenDaysPct": 2.1,
+              "comparisonRaw": "+2.1%"
+            },
+            {
+              "name": "主页",
+              "sharePct": 9,
+              "comparedWithSevenDaysPct": -0.8,
+              "comparisonRaw": "-0.8%"
+            },
+            {
+              "name": "关注",
+              "sharePct": 7,
+              "comparedWithSevenDaysPct": 0.4,
+              "comparisonRaw": "+0.4%"
+            },
+            {
+              "name": "其他",
+              "sharePct": 5,
+              "comparedWithSevenDaysPct": -1.2,
+              "comparisonRaw": "-1.2%"
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": 1,
+                "time": "00:00",
+                "name": "问题与结果",
+                "clickRatePct": 42
+              },
+              {
+                "rank": 2,
+                "time": "00:18",
+                "name": "实际演示",
+                "clickRatePct": 35
+              },
+              {
+                "rank": 3,
+                "time": "00:42",
+                "name": "边界与下一步",
+                "clickRatePct": 23
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": 1,
+                "name": "个人工作台",
+                "sharePct": 38
+              },
+              {
+                "rank": 2,
+                "name": "本地知识库",
+                "sharePct": 34
+              },
+              {
+                "rank": 3,
+                "name": "AI 工作流",
+                "sharePct": 28
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": 1,
+                "name": "Markdown 工作台",
+                "sharePct": 41
+              },
+              {
+                "rank": 2,
+                "name": "知识库怎么搭",
+                "sharePct": 33
+              },
+              {
+                "rank": 3,
+                "name": "本地 Agent",
+                "sharePct": 26
+              }
+            ],
+            "geography": [
+              {
+                "name": "华东示例区",
+                "sharePct": 29
+              },
+              {
+                "name": "华南示例区",
+                "sharePct": 23
+              },
+              {
+                "name": "华北示例区",
+                "sharePct": 21
+              },
+              {
+                "name": "西南示例区",
+                "sharePct": 16
+              },
+              {
+                "name": "其他示例区",
+                "sharePct": 11
+              }
+            ],
+            "interests": [
+              {
+                "name": "软件工具",
+                "sharePct": 32
+              },
+              {
+                "name": "学习方法",
+                "sharePct": 26
+              },
+              {
+                "name": "职场效率",
+                "sharePct": 23
+              },
+              {
+                "name": "内容创作",
+                "sharePct": 19
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": "知识库",
+                "heat": 92,
+                "heatRaw": "92"
+              },
+              {
+                "name": "工作流",
+                "heat": 84,
+                "heatRaw": "84"
+              },
+              {
+                "name": "本地",
+                "heat": 76,
+                "heatRaw": "76"
+              },
+              {
+                "name": "自动化",
+                "heat": 68,
+                "heatRaw": "68"
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": 1,
+                "name": "怎么安装"
+              },
+              {
+                "rank": 2,
+                "name": "能否开源"
+              },
+              {
+                "rank": 3,
+                "name": "数据安全"
+              },
+              {
+                "rank": 4,
+                "name": "目录模板"
+              },
+              {
+                "rank": 5,
+                "name": "完整教程"
+              }
+            ],
+            "missingFields": []
+          }
+        },
+        "demo-work-008": {
+          "platformWorkId": "synthetic-008",
+          "capturedAt": "2026-01-31T20:30:00+08:00",
+          "sourceKind": "synthetic-demo",
+          "sourcePaths": [
+            "30_self_media/douyin/synthetic/deep/synthetic-008/metrics.json",
+            "30_self_media/douyin/synthetic/deep/synthetic-008/audience.json"
+          ],
+          "metrics": {
+            "views": 15600,
+            "likes": 858,
+            "shares": 109,
+            "comments": 70,
+            "saves": 624,
+            "followerGain": 70,
+            "completionRatePct": 19.6,
+            "fiveSecondCompletionRatePct": 45.3,
+            "twoSecondBounceRatePct": 31.8,
+            "averageWatchSeconds": 26.6,
+            "averageWatchSharePct": 38,
+            "coverClickRatePct": 4.8,
+            "saveRatePct": 4,
+            "followerGainRatePct": 0.45,
+            "notInterested": 22
+          },
+          "hourlyViews": [
+            {
+              "date": "2026-01-24T02:00:00.000Z",
+              "value": 1393,
+              "cumulative": 1393
+            },
+            {
+              "date": "2026-01-24T03:00:00.000Z",
+              "value": 1217,
+              "cumulative": 2610
+            },
+            {
+              "date": "2026-01-24T04:00:00.000Z",
+              "value": 1221,
+              "cumulative": 3831
+            },
+            {
+              "date": "2026-01-24T05:00:00.000Z",
+              "value": 1224,
+              "cumulative": 5055
+            },
+            {
+              "date": "2026-01-24T06:00:00.000Z",
+              "value": 1048,
+              "cumulative": 6103
+            },
+            {
+              "date": "2026-01-24T07:00:00.000Z",
+              "value": 1052,
+              "cumulative": 7155
+            },
+            {
+              "date": "2026-01-24T08:00:00.000Z",
+              "value": 1056,
+              "cumulative": 8211
+            },
+            {
+              "date": "2026-01-24T09:00:00.000Z",
+              "value": 880,
+              "cumulative": 9091
+            },
+            {
+              "date": "2026-01-24T10:00:00.000Z",
+              "value": 884,
+              "cumulative": 9975
+            },
+            {
+              "date": "2026-01-24T11:00:00.000Z",
+              "value": 887,
+              "cumulative": 10862
+            },
+            {
+              "date": "2026-01-24T12:00:00.000Z",
+              "value": 711,
+              "cumulative": 11573
+            },
+            {
+              "date": "2026-01-24T13:00:00.000Z",
+              "value": 0,
+              "cumulative": 11573
+            }
+          ],
+          "hourlyFollowerGain": [
+            {
+              "date": "2026-01-24T02:00:00.000Z",
+              "value": 9,
+              "cumulative": 9
+            },
+            {
+              "date": "2026-01-24T03:00:00.000Z",
+              "value": 8,
+              "cumulative": 17
+            },
+            {
+              "date": "2026-01-24T04:00:00.000Z",
+              "value": 8,
+              "cumulative": 25
+            },
+            {
+              "date": "2026-01-24T05:00:00.000Z",
+              "value": 8,
+              "cumulative": 33
+            },
+            {
+              "date": "2026-01-24T06:00:00.000Z",
+              "value": 7,
+              "cumulative": 40
+            },
+            {
+              "date": "2026-01-24T07:00:00.000Z",
+              "value": 7,
+              "cumulative": 47
+            },
+            {
+              "date": "2026-01-24T08:00:00.000Z",
+              "value": 7,
+              "cumulative": 54
+            },
+            {
+              "date": "2026-01-24T09:00:00.000Z",
+              "value": 0,
+              "cumulative": 54
+            }
+          ],
+          "dailyFollowerCumulative": [
+            {
+              "date": "2026-01-23",
+              "value": 10,
+              "douyin": 9,
+              "douyinFeatured": 1
+            },
+            {
+              "date": "2026-01-24",
+              "value": 20,
+              "douyin": 18,
+              "douyinFeatured": 2
+            },
+            {
+              "date": "2026-01-25",
+              "value": 30,
+              "douyin": 26,
+              "douyinFeatured": 4
+            },
+            {
+              "date": "2026-01-26",
+              "value": 40,
+              "douyin": 35,
+              "douyinFeatured": 5
+            },
+            {
+              "date": "2026-01-27",
+              "value": 50,
+              "douyin": 44,
+              "douyinFeatured": 6
+            },
+            {
+              "date": "2026-01-28",
+              "value": 60,
+              "douyin": 53,
+              "douyinFeatured": 7
+            },
+            {
+              "date": "2026-01-29",
+              "value": 70,
+              "douyin": 62,
+              "douyinFeatured": 8
+            }
+          ],
+          "progress": [
+            {
+              "time": "0s",
+              "skipRatePct": 0,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "2s",
+              "skipRatePct": 11.2,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "5s",
+              "skipRatePct": 22.4,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "10s",
+              "skipRatePct": 33.6,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "20s",
+              "skipRatePct": 44.8,
+              "rewatchRatePct": 3
+            },
+            {
+              "time": "30s",
+              "skipRatePct": 56,
+              "rewatchRatePct": 4.3
+            },
+            {
+              "time": "45s",
+              "skipRatePct": 67.2,
+              "rewatchRatePct": 5.6
+            },
+            {
+              "time": "60s",
+              "skipRatePct": 78.4,
+              "rewatchRatePct": 6.9
+            },
+            {
+              "time": "70s",
+              "skipRatePct": 86,
+              "rewatchRatePct": 3
+            }
+          ],
+          "retention": [
+            {
+              "time": "0s",
+              "valuePct": 100,
+              "peerPct": 98
+            },
+            {
+              "time": "2s",
+              "valuePct": 89.5,
+              "peerPct": 88.8
+            },
+            {
+              "time": "5s",
+              "valuePct": 79,
+              "peerPct": 79.6
+            },
+            {
+              "time": "10s",
+              "valuePct": 68.5,
+              "peerPct": 70.4
+            },
+            {
+              "time": "20s",
+              "valuePct": 58,
+              "peerPct": 61.2
+            },
+            {
+              "time": "30s",
+              "valuePct": 47.5,
+              "peerPct": 52
+            },
+            {
+              "time": "45s",
+              "valuePct": 37,
+              "peerPct": 42.8
+            },
+            {
+              "time": "60s",
+              "valuePct": 26.5,
+              "peerPct": 33.6
+            },
+            {
+              "time": "70s",
+              "valuePct": 19.6,
+              "peerPct": 24.4
+            }
+          ],
+          "bounce": [
+            {
+              "time": "0s",
+              "valuePct": 0,
+              "peerPct": 2
+            },
+            {
+              "time": "2s",
+              "valuePct": 11.2,
+              "peerPct": 11.7
+            },
+            {
+              "time": "5s",
+              "valuePct": 22.4,
+              "peerPct": 21.4
+            },
+            {
+              "time": "10s",
+              "valuePct": 33.6,
+              "peerPct": 31.1
+            },
+            {
+              "time": "20s",
+              "valuePct": 44.8,
+              "peerPct": 40.8
+            },
+            {
+              "time": "30s",
+              "valuePct": 56,
+              "peerPct": 50.5
+            },
+            {
+              "time": "45s",
+              "valuePct": 67.2,
+              "peerPct": 60.2
+            },
+            {
+              "time": "60s",
+              "valuePct": 78.4,
+              "peerPct": 69.9
+            },
+            {
+              "time": "70s",
+              "valuePct": 86,
+              "peerPct": 79.6
+            }
+          ],
+          "trafficSources": [
+            {
+              "name": "推荐页",
+              "sharePct": 63,
+              "comparedWithSevenDaysPct": 4.2,
+              "comparisonRaw": "+4.2%"
+            },
+            {
+              "name": "搜索",
+              "sharePct": 16,
+              "comparedWithSevenDaysPct": 2.1,
+              "comparisonRaw": "+2.1%"
+            },
+            {
+              "name": "主页",
+              "sharePct": 9,
+              "comparedWithSevenDaysPct": -0.8,
+              "comparisonRaw": "-0.8%"
+            },
+            {
+              "name": "关注",
+              "sharePct": 7,
+              "comparedWithSevenDaysPct": 0.4,
+              "comparisonRaw": "+0.4%"
+            },
+            {
+              "name": "其他",
+              "sharePct": 5,
+              "comparedWithSevenDaysPct": -1.2,
+              "comparisonRaw": "-1.2%"
+            }
+          ],
+          "pageEvidence": {
+            "chapters": [
+              {
+                "rank": 1,
+                "time": "00:00",
+                "name": "问题与结果",
+                "clickRatePct": 42
+              },
+              {
+                "rank": 2,
+                "time": "00:18",
+                "name": "实际演示",
+                "clickRatePct": 35
+              },
+              {
+                "rank": 3,
+                "time": "00:42",
+                "name": "边界与下一步",
+                "clickRatePct": 23
+              }
+            ],
+            "incomingSearchTerms": [
+              {
+                "rank": 1,
+                "name": "个人工作台",
+                "sharePct": 38
+              },
+              {
+                "rank": 2,
+                "name": "本地知识库",
+                "sharePct": 34
+              },
+              {
+                "rank": 3,
+                "name": "AI 工作流",
+                "sharePct": 28
+              }
+            ],
+            "postWatchSearchTerms": [
+              {
+                "rank": 1,
+                "name": "Markdown 工作台",
+                "sharePct": 41
+              },
+              {
+                "rank": 2,
+                "name": "知识库怎么搭",
+                "sharePct": 33
+              },
+              {
+                "rank": 3,
+                "name": "本地 Agent",
+                "sharePct": 26
+              }
+            ],
+            "geography": [
+              {
+                "name": "华东示例区",
+                "sharePct": 29
+              },
+              {
+                "name": "华南示例区",
+                "sharePct": 23
+              },
+              {
+                "name": "华北示例区",
+                "sharePct": 21
+              },
+              {
+                "name": "西南示例区",
+                "sharePct": 16
+              },
+              {
+                "name": "其他示例区",
+                "sharePct": 11
+              }
+            ],
+            "interests": [
+              {
+                "name": "软件工具",
+                "sharePct": 32
+              },
+              {
+                "name": "学习方法",
+                "sharePct": 26
+              },
+              {
+                "name": "职场效率",
+                "sharePct": 23
+              },
+              {
+                "name": "内容创作",
+                "sharePct": 19
+              }
+            ],
+            "audienceHotWords": [
+              {
+                "name": "知识库",
+                "heat": 92,
+                "heatRaw": "92"
+              },
+              {
+                "name": "工作流",
+                "heat": 84,
+                "heatRaw": "84"
+              },
+              {
+                "name": "本地",
+                "heat": 76,
+                "heatRaw": "76"
+              },
+              {
+                "name": "自动化",
+                "heat": 68,
+                "heatRaw": "68"
+              }
+            ],
+            "commentKeywords": [
+              {
+                "rank": 1,
+                "name": "怎么安装"
+              },
+              {
+                "rank": 2,
+                "name": "能否开源"
+              },
+              {
+                "rank": 3,
+                "name": "数据安全"
+              },
+              {
+                "rank": 4,
+                "name": "目录模板"
+              },
+              {
+                "rank": 5,
+                "name": "完整教程"
+              }
+            ],
+            "missingFields": []
+          }
+        }
+      }
+    }
+  }
+}

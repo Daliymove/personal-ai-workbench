@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Personal AI Workbench</title>
+  <desc id="desc">Local-first personal knowledge workspace.</desc>
+  <defs>
+    <pattern id="dot-type" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.65" fill="#181818"/>
+    </pattern>
+    <pattern id="dot-field" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.25" fill="#181818" fill-opacity=".14"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="360" rx="12"/></clipPath>
+    <clipPath id="orb"><circle cx="975" cy="181" r="118"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#F6F6F4"/>
+
+    <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+      <!-- Header -->
+      <g transform="translate(38 30)">
+        <rect width="28" height="28" rx="7" fill="#181818"/>
+        <path d="M6 8 10.5 21 14 13.5 17.5 21 22 8" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <circle cx="22" cy="8" r="2.2" fill="#7C3AED"/>
+        <text x="41" y="19" fill="#181818" font-size="13" font-weight="700" letter-spacing=".4">PERSONAL AI WORKBENCH</text>
+      </g>
+      <g transform="translate(1042 44)" fill="#686868" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" letter-spacing="1.4">
+        <circle cx="0" cy="-3" r="3" fill="#7C3AED"/>
+        <text x="11" y="0">LOCAL / 001</text>
+      </g>
+      <path d="M38 76h1124" stroke="#181818" stroke-opacity=".18"/>
+
+      <!-- Minimal title -->
+      <g transform="translate(50 111)">
+        <text x="0" y="66" fill="url(#dot-type)" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-size="82" font-weight="900" letter-spacing="-3">PERSONAL AI</text>
+        <text x="0" y="142" fill="#181818" font-size="68" font-weight="760" letter-spacing="-2.5">WORKBENCH</text>
+        <rect x="2" y="165" width="44" height="4" rx="2" fill="#7C3AED"/>
+      </g>
+
+      <!-- Knowledge mark -->
+      <g clip-path="url(#orb)">
+        <rect x="848" y="54" width="254" height="254" fill="url(#dot-field)"/>
+      </g>
+      <circle cx="975" cy="181" r="118" fill="none" stroke="#181818" stroke-opacity=".16"/>
+      <circle cx="975" cy="181" r="88" fill="#F6F6F4" stroke="#181818"/>
+      <path d="M910 138 942 224 975 176 1008 224 1040 138" fill="none" stroke="#181818" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <g fill="#F6F6F4" stroke="#181818" stroke-width="3">
+        <circle cx="910" cy="138" r="8"/>
+        <circle cx="942" cy="224" r="8"/>
+        <circle cx="975" cy="176" r="8"/>
+        <circle cx="1008" cy="224" r="8"/>
+      </g>
+      <circle cx="1040" cy="138" r="9" fill="#7C3AED" stroke="#181818" stroke-width="3"/>
+
+      <!-- Footer -->
+      <path d="M38 314h1124" stroke="#181818" stroke-opacity=".18"/>
+      <g transform="translate(40 338)" fill="#5F5F5C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" letter-spacing="1.5">
+        <text x="0">VAULT</text>
+        <circle cx="73" cy="-3" r="2" fill="#B4B4B0"/>
+        <text x="88">WIKI</text>
+        <circle cx="148" cy="-3" r="2" fill="#B4B4B0"/>
+        <text x="163">AGENT</text>
+      </g>
+      <text x="1162" y="338" text-anchor="end" fill="#8A8A86" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" letter-spacing="1.2">LOCAL-FIRST</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="358.5" rx="11.25" fill="none" stroke="#181818" stroke-width="1.5"/>
+</svg>

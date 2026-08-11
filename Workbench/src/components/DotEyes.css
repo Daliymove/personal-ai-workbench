@@ -1,0 +1,526 @@
+.dot-eyes {
+  --look-x: 0px;
+  --look-y: 0px;
+  --tilt: 0deg;
+  --attention: 0;
+  align-items: center;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  gap: var(--eye-gap);
+  isolation: isolate;
+  max-width: 100%;
+  min-height: calc(var(--eye-size) + 34px);
+  padding: 16px 18px;
+  position: relative;
+  transform: rotate(var(--tilt));
+  transition: opacity 240ms var(--ease), transform 180ms var(--ease);
+  user-select: none;
+}
+
+.dot-eyes:disabled {
+  cursor: default;
+}
+
+.dot-eyes:focus-visible {
+  border-radius: 999px;
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.dot-eyes::before {
+  border: 1px solid color-mix(in srgb, var(--accent) 16%, transparent);
+  border-radius: 999px;
+  content: "";
+  inset: 4px -8px;
+  opacity: calc(0.25 + (var(--attention) * 0.35));
+  pointer-events: none;
+  position: absolute;
+  transform: scale(calc(0.97 + (var(--attention) * 0.03)));
+  transition: border-color 180ms var(--ease), opacity 180ms var(--ease),
+    transform 180ms var(--ease);
+}
+
+.dot-eyes::after {
+  background-image: radial-gradient(var(--accent-soft) 1px, transparent 1.2px);
+  background-size: 9px 9px;
+  content: "";
+  inset: -8px -18px;
+  mask-image: radial-gradient(ellipse, #000 10%, transparent 72%);
+  opacity: calc(0.1 + (var(--attention) * 0.14));
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 180ms var(--ease);
+  z-index: -1;
+}
+
+.dot-eye {
+  background: color-mix(in srgb, var(--surface-sunken) 82%, white);
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.72),
+    0 14px 36px rgba(24, 24, 27, 0.07);
+  display: grid;
+  height: var(--eye-size);
+  overflow: hidden;
+  place-items: center;
+  position: relative;
+  width: var(--eye-size);
+}
+
+.dot-eye__grid {
+  background-image: radial-gradient(var(--line-strong) 1px, transparent 1.15px);
+  background-position: center;
+  background-size: 7px 7px;
+  inset: 0;
+  opacity: 0.72;
+  position: absolute;
+}
+
+.dot-eye__orbit {
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(var(--look-x), var(--look-y));
+  transition: height 180ms var(--ease), opacity 180ms var(--ease), width 180ms var(--ease);
+}
+
+.dot-eye__orbit--outer {
+  height: 62%;
+  opacity: 0.44;
+  width: 62%;
+}
+
+.dot-eye__orbit--inner {
+  border-style: dotted;
+  height: 43%;
+  opacity: 0.72;
+  width: 43%;
+}
+
+.dot-eye__iris {
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--accent-glow), 0 8px 18px rgba(109, 40, 217, 0.2);
+  display: grid;
+  height: 25%;
+  place-items: center;
+  position: relative;
+  transform: translate(var(--look-x), var(--look-y));
+  width: 25%;
+}
+
+.dot-eye__pupil {
+  background: #24103f;
+  border-radius: 50%;
+  height: 42%;
+  width: 42%;
+}
+
+.dot-eye__glint {
+  background: white;
+  border-radius: 50%;
+  height: 18%;
+  position: absolute;
+  right: 20%;
+  top: 18%;
+  width: 18%;
+}
+
+.dot-eye__lid {
+  background: var(--surface);
+  border-bottom: 1px solid var(--line-strong);
+  height: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: height 105ms ease-in;
+}
+
+.dot-eye--blink .dot-eye__lid {
+  height: 52%;
+}
+
+.dot-eye--blink .dot-eye__iris,
+.dot-eye--blink .dot-eye__orbit {
+  transform: translate(var(--look-x), var(--look-y)) scaleY(0.08);
+}
+
+.dot-eyes__bridge {
+  border-top: 1px dashed color-mix(in srgb, var(--accent) 34%, var(--line));
+  height: 1px;
+  margin-inline: calc(var(--eye-gap) * -0.82);
+  opacity: 0.7;
+  transform-origin: center;
+  width: calc(var(--eye-gap) * 1.65);
+}
+
+.dot-eyes__signal {
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--accent-wash);
+  height: 4px;
+  opacity: 0.55;
+  width: 4px;
+}
+
+/* Data is not ready: present but deliberately dormant. */
+.dot-eyes--dormant {
+  opacity: 0.58;
+}
+
+.dot-eyes--dormant::before {
+  border-color: color-mix(in srgb, var(--line-strong) 72%, transparent);
+  opacity: 0.42;
+}
+
+.dot-eyes--dormant .dot-eye__lid {
+  height: 45%;
+}
+
+.dot-eyes--dormant .dot-eye__iris {
+  opacity: 0.24;
+  transform: translate(0, 5px) scale(0.72);
+}
+
+.dot-eyes--dormant .dot-eye__orbit {
+  opacity: 0.16;
+  transform: translate(0, 5px) scale(0.76);
+}
+
+.dot-eyes--dormant .dot-eyes__bridge,
+.dot-eyes--dormant .dot-eyes__signal {
+  opacity: 0.18;
+}
+
+/* One-shot wake choreography after the live overview payload arrives. */
+.dot-eyes--waking::before {
+  animation: dot-eyes-wake-ring 920ms var(--ease) both;
+}
+
+.dot-eyes--waking .dot-eye {
+  animation: dot-eyes-wake-shell 900ms var(--ease) both;
+  animation-delay: calc(var(--eye-order) * 54ms);
+}
+
+.dot-eyes--waking .dot-eye__grid {
+  animation: dot-eyes-wake-grid 760ms var(--ease) both;
+  animation-delay: calc(80ms + (var(--eye-order) * 54ms));
+}
+
+.dot-eyes--waking .dot-eye__lid {
+  animation: dot-eyes-wake-lid 760ms var(--ease) both;
+  animation-delay: calc(var(--eye-order) * 54ms);
+}
+
+.dot-eyes--waking .dot-eye__iris {
+  animation: dot-eyes-wake-iris 820ms var(--ease) both;
+  animation-delay: calc(90ms + (var(--eye-order) * 54ms));
+}
+
+.dot-eyes--waking .dot-eye__orbit--outer {
+  animation: dot-eyes-wake-orbit-outer 800ms var(--ease) both;
+  animation-delay: calc(100ms + (var(--eye-order) * 54ms));
+}
+
+.dot-eyes--waking .dot-eye__orbit--inner {
+  animation: dot-eyes-wake-orbit-inner 800ms var(--ease) both;
+  animation-delay: calc(140ms + (var(--eye-order) * 54ms));
+}
+
+.dot-eyes--waking .dot-eyes__bridge {
+  animation: dot-eyes-wake-bridge 560ms var(--ease) 300ms both;
+}
+
+.dot-eyes--waking .dot-eyes__signal {
+  animation: dot-eyes-wake-signal 480ms var(--ease) 380ms both;
+}
+
+/* A keyed response layer guarantees that every intentional response restarts cleanly. */
+.dot-eyes__response {
+  inset: 0;
+  overflow: clip;
+  pointer-events: none;
+  position: absolute;
+  z-index: 4;
+}
+
+.dot-eyes__response-ring {
+  border: 1px solid color-mix(in srgb, var(--accent) 62%, transparent);
+  border-radius: 999px;
+  inset: 4px 0;
+  position: absolute;
+  animation: dot-eyes-response-ring 540ms var(--ease) both;
+}
+
+.dot-eyes__spark {
+  height: 1px;
+  left: var(--spark-x);
+  position: absolute;
+  top: var(--spark-y);
+  width: 1px;
+}
+
+.dot-eyes__spark::after {
+  animation: dot-eyes-spark-core 360ms var(--ease) both;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px var(--accent-wash);
+  content: "";
+  height: 4px;
+  left: -2px;
+  position: absolute;
+  top: -2px;
+  width: 4px;
+}
+
+.dot-eyes__spark-ray {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(var(--spark-angle));
+  transform-origin: left center;
+  width: 1px;
+}
+
+.dot-eyes__spark-ray::after {
+  animation: dot-eyes-spark-ray 460ms var(--ease) both;
+  background: var(--accent);
+  border-radius: 1px;
+  content: "";
+  height: 1px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform-origin: left center;
+  width: 12px;
+}
+
+@keyframes dot-eyes-wake-ring {
+  0% {
+    border-color: color-mix(in srgb, var(--line-strong) 72%, transparent);
+    opacity: 0.35;
+    transform: scale(0.96);
+  }
+  62% {
+    border-color: color-mix(in srgb, var(--accent) 48%, transparent);
+    opacity: 0.88;
+    transform: scale(1.035);
+  }
+  100% {
+    border-color: color-mix(in srgb, var(--accent) 16%, transparent);
+    opacity: 0.25;
+    transform: scale(0.97);
+  }
+}
+
+@keyframes dot-eyes-wake-shell {
+  0% {
+    border-color: var(--line);
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.72),
+      0 8px 20px rgba(24, 24, 27, 0.03);
+  }
+  64% {
+    border-color: color-mix(in srgb, var(--accent-soft) 58%, var(--line));
+    box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.72),
+      0 16px 38px rgba(109, 40, 217, 0.12);
+  }
+  100% {
+    border-color: var(--line-strong);
+  }
+}
+
+@keyframes dot-eyes-wake-grid {
+  0%,
+  18% {
+    opacity: 0.2;
+  }
+  54% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.72;
+  }
+}
+
+@keyframes dot-eyes-wake-lid {
+  0%,
+  18% {
+    height: 48%;
+  }
+  42% {
+    height: 54%;
+  }
+  72%,
+  100% {
+    height: 0;
+  }
+}
+
+@keyframes dot-eyes-wake-iris {
+  0%,
+  24% {
+    opacity: 0.18;
+    transform: translate(0, 5px) scale(0.42);
+  }
+  72% {
+    opacity: 1;
+    transform: translate(var(--look-x), var(--look-y)) scale(1.13);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(var(--look-x), var(--look-y)) scale(1);
+  }
+}
+
+@keyframes dot-eyes-wake-orbit-outer {
+  0%,
+  26% {
+    height: 28%;
+    opacity: 0;
+    width: 28%;
+  }
+  72% {
+    height: 69%;
+    opacity: 0.72;
+    width: 69%;
+  }
+  100% {
+    height: 62%;
+    opacity: 0.44;
+    width: 62%;
+  }
+}
+
+@keyframes dot-eyes-wake-orbit-inner {
+  0%,
+  34% {
+    height: 22%;
+    opacity: 0;
+    width: 22%;
+  }
+  76% {
+    height: 48%;
+    opacity: 0.88;
+    width: 48%;
+  }
+  100% {
+    height: 43%;
+    opacity: 0.72;
+    width: 43%;
+  }
+}
+
+@keyframes dot-eyes-wake-bridge {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  100% {
+    opacity: 0.7;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes dot-eyes-wake-signal {
+  0% {
+    box-shadow: 0 0 0 0 var(--accent-wash);
+    opacity: 0;
+    transform: scale(0.35);
+  }
+  58% {
+    box-shadow: 0 0 0 7px var(--accent-wash);
+    opacity: 1;
+    transform: scale(1.35);
+  }
+  100% {
+    box-shadow: 0 0 0 4px var(--accent-wash);
+    opacity: 0.55;
+    transform: scale(1);
+  }
+}
+
+@keyframes dot-eyes-response-ring {
+  0% {
+    opacity: 0.72;
+    transform: scale(0.98);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes dot-eyes-spark-core {
+  0% {
+    opacity: 0;
+    transform: scale(0.35);
+  }
+  34% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+}
+
+@keyframes dot-eyes-spark-ray {
+  0% {
+    opacity: 0;
+    transform: translateX(3px) scaleX(0.16);
+  }
+  34% {
+    opacity: 0.84;
+    transform: translateX(8px) scaleX(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(22px) scaleX(0.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dot-eyes,
+  .dot-eyes::before,
+  .dot-eyes::after,
+  .dot-eye,
+  .dot-eye__grid,
+  .dot-eye__iris,
+  .dot-eye__orbit,
+  .dot-eye__lid,
+  .dot-eyes__bridge,
+  .dot-eyes__signal,
+  .dot-eyes__response-ring,
+  .dot-eyes__spark::after,
+  .dot-eyes__spark-ray::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .dot-eyes--dormant {
+    opacity: 1;
+  }
+
+  .dot-eyes--dormant .dot-eye__lid {
+    height: 0;
+  }
+
+  .dot-eyes--dormant .dot-eye__iris,
+  .dot-eyes--dormant .dot-eye__orbit {
+    opacity: revert;
+    transform: none;
+  }
+
+  .dot-eyes__response {
+    display: none;
+  }
+}
