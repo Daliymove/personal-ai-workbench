@@ -1,4 +1,4 @@
-﻿import { useSyncExternalStore } from "react";
+import { useSyncExternalStore } from "react";
 
 export const THEME_STORAGE_KEY = "workbench.theme.v1";
 export const DEFAULT_BASE_COLOR = "#7c3aed";

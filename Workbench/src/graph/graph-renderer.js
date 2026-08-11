@@ -1,4 +1,4 @@
-﻿import { typeColor } from "../lib/graph.js";
+import { typeColor } from "../lib/graph.js";
 import { getAccentFamily } from "../lib/theme.js";
 
 function roundedRect(ctx, x, y, width, height, radius) {

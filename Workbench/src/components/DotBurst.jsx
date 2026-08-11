@@ -1,4 +1,4 @@
-﻿import { useCallback, useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import { getAccentFamily } from "../lib/theme.js";
 import gsap from "gsap";
 

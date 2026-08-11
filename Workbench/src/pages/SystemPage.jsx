@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { PageHeader } from "../components/PageHeader";
 import { ThemeCustomizer } from "../components/ThemeCustomizer";
 import { getRuntimeStatus, refreshVault } from "../lib/api";

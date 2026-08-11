@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import { getAccentFamily, subscribeTheme } from "../lib/theme.js";
 import { IconChartBar, IconInfoCircle } from "@tabler/icons-react";
 import {

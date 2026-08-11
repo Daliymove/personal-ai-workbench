@@ -1,4 +1,4 @@
-﻿import { getAccentFamily } from "./theme.js";
+import { getAccentFamily } from "./theme.js";
 
 const EXPORT_NOTICE = "这是从个人 AI 工作台导出的独立副本。为便于安全分享，本地路径、文档标识、私有来源索引和原报告入口未包含在文件中。";
 
