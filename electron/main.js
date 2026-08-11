@@ -1,7 +1,7 @@
 // Electron 主进程 —— workbench-app 的"启动器"壳
 // 职责：启动 Workbench 的 vite dev server（页面 + API 一体），
 //       等端口就绪后打开窗口加载它，退出时关掉子进程。
-const { app, BrowserWindow, Menu, dialog } = require('electron')
+const { app, BrowserWindow, Menu, dialog, ipcMain } = require('electron')
 const { spawn, spawnSync } = require('child_process')
 const fs = require('fs')
 const net = require('net')
@@ -50,12 +50,12 @@ const workbenchDir = path.join(runtimeRoot, 'Workbench')
 // 文案按需传入：真正解压时才提示 1~2 分钟，普通启动只显示短提示。
 function loadingHtml(tip) {
   return `<!doctype html><html><head><meta charset="utf-8"><style>
-body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;background:#f5f0e6;font-family:'Noto Serif SC','Source Han Serif SC',serif;color:#4a433c}
+body{margin:0;height:100vh;display:flex;align-items:center;justify-content:center;background:#fafafa;font-family:'Noto Sans SC',system-ui,sans-serif;color:#52525b}
 .box{text-align:center}
-.title{font-size:30px;font-weight:500;color:#1b365d}
-.sub{margin-top:14px;font-size:14px}
-.tip{margin-top:10px;font-size:12px;color:#6b6158}
-.dot{display:inline-block;width:6px;height:6px;margin:0 3px;border-radius:50%;background:#537d96;animation:blink 1.2s infinite}
+.title{font-size:28px;font-weight:700;letter-spacing:-0.02em;color:#7c3aed}
+.sub{margin-top:14px;font-size:14px;color:#52525b}
+.tip{margin-top:10px;font-size:12px;color:#a1a1aa}
+.dot{display:inline-block;width:6px;height:6px;margin:0 3px;border-radius:50%;background:#a78bfa;animation:blink 1.2s infinite}
 .dot:nth-child(2){animation-delay:.2s}.dot:nth-child(3){animation-delay:.4s}
 @keyframes blink{0%,80%,100%{opacity:.2}40%{opacity:1}}
 </style></head><body><div class="box">
@@ -205,9 +205,17 @@ function createWindow(tip) {
     // 窗口/任务栏图标（dev 模式生效；打包后 exe 内嵌图标）
     icon: path.join(__dirname, '../build/icon.png'),
     autoHideMenuBar: true,
-    backgroundColor: '#f5f0e6',
+    backgroundColor: '#fafafa',
+    // 隐藏系统标题栏，由渲染层绘制与应用一致的标题条；右上角保留原生窗口按钮（覆盖层）
+    titleBarStyle: 'hidden',
+    titleBarOverlay: {
+      color: '#ffffff',
+      symbolColor: '#52525b',
+      height: 40
+    },
     webPreferences: {
-      contextIsolation: true
+      contextIsolation: true,
+      preload: path.join(__dirname, 'preload.js')
     }
   })
 
@@ -228,6 +236,17 @@ function createWindow(tip) {
     console.error('[window] 加载失败:', code, desc)
   })
 }
+
+// 双击标题栏拖拽区：切换最大化/还原（自定义标题条下系统不再自动处理）
+ipcMain.handle('window:maximize-toggle', () => {
+  if (!win || win.isDestroyed()) return false
+  if (win.isMaximized()) {
+    win.unmaximize()
+    return false
+  }
+  win.maximize()
+  return true
+})
 
 async function boot() {
   try {

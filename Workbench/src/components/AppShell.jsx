@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import {
   IconBrandTiktok,
   IconBooks,
@@ -20,6 +20,11 @@ import {
 
 const localWorkbench = import.meta.env.VITE_WORKBENCH_HOSTED !== "true";
 
+// Electron 桌面壳：窗口标题条只在桌面应用里渲染（浏览器托管模式不显示）
+const isElectron = Boolean(
+  window.desktopWindow?.isElectron || navigator.userAgent.includes("Electron"),
+);
+
 const primaryNavigation = [
   { to: "/", label: "总览", icon: IconHome, end: true },
   { to: "/graph", label: "知识星图", icon: IconTopologyStar3 },
@@ -37,6 +42,13 @@ const primaryNavigation = [
 
 export function AppShell({ children, onOpenSearch, sync }) {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const location = useLocation();
+  const currentNav = primaryNavigation.find(
+    (item) => location.pathname === item.to || location.pathname.startsWith(`${item.to}/`),
+  );
+  const pageLabel =
+    currentNav?.label ||
+    (location.pathname === "/system" ? "系统状态" : "Personal AI Workbench");
 
   useEffect(() => {
     if (!mobileOpen) return undefined;
@@ -48,7 +60,16 @@ export function AppShell({ children, onOpenSearch, sync }) {
   }, [mobileOpen]);
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell${isElectron ? " app-shell--desktop" : ""}`}>
+      {isElectron ? (
+        <div
+          className="window-titlebar"
+          onDoubleClick={() => window.desktopWindow?.maximizeToggle?.()}
+          title="Personal AI Workbench"
+        >
+          <span className="window-titlebar__page">{pageLabel}</span>
+        </div>
+      ) : null}
       <header className="mobile-header">
         <button
           aria-label="打开导航"

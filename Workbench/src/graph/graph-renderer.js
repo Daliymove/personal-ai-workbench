@@ -1,5 +1,5 @@
 import { typeColor } from "../lib/graph.js";
-import { getAccentFamily } from "../lib/theme.js";
+import { getAccentFamily, hexToRgb } from "../lib/theme.js";
 
 function roundedRect(ctx, x, y, width, height, radius) {
   const r = Math.min(radius, width / 2, height / 2);
@@ -10,6 +10,25 @@ function roundedRect(ctx, x, y, width, height, radius) {
   ctx.arcTo(x, y + height, x, y, r);
   ctx.arcTo(x, y, x + width, y, r);
   ctx.closePath();
+}
+
+function mixRgb(a, b, t) {
+  return {
+    r: Math.round(a.r + (b.r - a.r) * t),
+    g: Math.round(a.g + (b.g - a.g) * t),
+    b: Math.round(a.b + (b.b - a.b) * t),
+  };
+}
+
+// 连线色板跟随主题：普通连线取柔和的 accent 中间色，聚焦连线取主题主色。
+function resolveLinkPalette() {
+  const family = getAccentFamily();
+  const soft = hexToRgb(family.accentSoft) || family.accentRgb;
+  const light = hexToRgb(family.accentLight) || soft;
+  return {
+    soft: mixRgb(soft, light, 0.5),
+    strong: family.accentRgb,
+  };
 }
 
 function linkGeometry(linkFrame, scale) {
@@ -24,7 +43,7 @@ function linkGeometry(linkFrame, scale) {
   };
 }
 
-function drawLink(ctx, frame, scale) {
+function drawLink(ctx, frame, scale, palette) {
   if (frame.alpha < 0.006) return;
   const geometry = linkGeometry(frame, scale);
   const emphasis = Math.max(frame.focusWeight, frame.hoverWeight);
@@ -39,9 +58,9 @@ function drawLink(ctx, frame, scale) {
     frame.target.y,
   );
   const tone = Math.min(1, Math.max(0, emphasis));
-  const red = Math.round(185 + (124 - 185) * tone);
-  const green = Math.round(166 + (58 - 166) * tone);
-  const blue = Math.round(234 + (237 - 234) * tone);
+  const red = Math.round(palette.soft.r + (palette.strong.r - palette.soft.r) * tone);
+  const green = Math.round(palette.soft.g + (palette.strong.g - palette.soft.g) * tone);
+  const blue = Math.round(palette.soft.b + (palette.strong.b - palette.soft.b) * tone);
   ctx.strokeStyle = `rgb(${red}, ${green}, ${blue})`;
   ctx.lineWidth =
     (0.62 + emphasis * (0.62 + Math.log2(frame.link.weight + 1) * 0.08)) / scale;
@@ -119,12 +138,13 @@ function drawLabel(ctx, label) {
 /** Pure drawing: all interaction decisions live in the scene engine. */
 export function renderGraphFrame(ctx, frame) {
   const { canvas, dpr, labels, links, nodes, view } = frame;
+  const linkPalette = resolveLinkPalette();
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.save();
   ctx.scale(dpr, dpr);
   ctx.translate(view.x, view.y);
   ctx.scale(view.k, view.k);
-  for (const link of links) drawLink(ctx, link, view.k);
+  for (const link of links) drawLink(ctx, link, view.k, linkPalette);
   for (const node of nodes) {
     if (node.hoverWeight < 0.008 && node.selectionWeight < 0.008) {
       drawNode(ctx, node, view.k);

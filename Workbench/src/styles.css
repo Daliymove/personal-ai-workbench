@@ -46,6 +46,7 @@
   --shadow-accent: 0 12px 34px var(--accent-glow);
 
   --sidebar-w: 244px;
+  --titlebar-h: 40px;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -668,6 +669,42 @@ h3 {
 /* ============================================================
    APP SHELL + SIDEBAR
    ============================================================ */
+
+/* window title bar（Electron 桌面壳，仅桌面应用渲染） */
+.window-titlebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--titlebar-h);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  padding-left: calc(var(--sidebar-w) + 16px);
+  padding-right: 150px; /* 给右上角原生窗口按钮留位 */
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
+  -webkit-app-region: drag;
+  user-select: none;
+}
+
+.window-titlebar__page {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.app-shell--desktop .sidebar {
+  top: var(--titlebar-h);
+}
+
+.app-shell--desktop .app-main {
+  padding-top: calc(var(--titlebar-h) + 28px);
+}
 
 .app-shell {
   position: relative;
